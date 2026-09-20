@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+.DS_Store
+.env
+
+# Regenerable inputs
+analytics/data/raw/
+analytics/data/interim/
+
+# Logs are per-run and local; the JSONL record is loaded into the database
+analytics/logs/*.log
+analytics/logs/runs.jsonl
+
+# Published on purpose by the refresh job
+!analytics/data/processed/epl.db
+!analytics/data/powerbi/
