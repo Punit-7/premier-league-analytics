@@ -13,39 +13,55 @@ log = get_logger(__name__)
 
 MANIFEST = CONFIG["paths"]["raw"] / "match_manifest.json"
 
+def read_manifest() -> dict:
+    return json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
+
+def fetch(season: str) -> bytes:
+    url = (f"{CONFIG['match_source']['base_url']}/{season}"
+           f"/{CONFIG['match_source']['division']}.csv")
+    r = requests.get(url, timeout=30)
+    r.raise_for_status()
+    return r.content
+
+def store(season: str, payload: bytes, manifest: dict) -> bool:
+    dest = CONFIG["paths"]["raw"] / f"E0_{season}.csv"
+    digest = hashlib.sha256(payload).hexdigest()
+    changed = digest != manifest.get(season,{}).get("sha256")
+    dest.write_bytes(payload)
+    manifest[season] = {
+        "season": season, "file": dest.name, "bytes": len(payload),
+        "sha256": digest, "rows": payload.count(b"\n") - 1,
+        "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    return changed
 
 def main() -> None:
-    started = time.perf_counter()
-    rows = None`
-    try:`
-        with stage(log, "ingest_matches"):
-            manifest = read_manifest()
-            cached = downloaded = 0
-
+    with stage(log,"ingest_matches"):
+        ap = argparse.ArgumentParser()
+        ap.add_argument("--current-only", action="store_true")
+        ap.add_argument("--force", action="store_true")
+        args = ap.parse_args()
+        
+        manifest = read_manifest()
+        
+        if not args.current_only:
             for season in CONFIG["historical_seasons"]:
-                if already_cached(season, manifest):
-                    log.debug("season %s cached", season)
-                    cached += 1
+                path = CONFIG["paths"]["raw"] / f"E0_{season}.csv"
+                if path.exists() and season in manifest and not args.force:
+                    log.debug("season %s cached (%s rows)",
+                              season, manifest[season]["rows"])
                     continue
                 store(season, fetch(season), manifest)
-                log.info("season %s downloaded", season)
-                downloaded += 1
+                log.info("season %s downloaded (%s rows)",
+                         season, manifest[season]["rows"])
+        
+        current  = CONFIG["current_season"]
+        changed = store(current, fetch(current), manifest)
+        log.info("live season %s: %s matches [%s]", current,
+                 manifest[current]["rows"],
+                 "new data" if changed else "unchanged")
 
-            live = CONFIG["current_season"]
-            changed = store(live, fetch(live), manifest)
-            rows = manifest[live]["rows"]
-            log.info("live season %s: %s matches (%s)", live, rows,
-                     "new data" if changed else "unchanged")
-            log.info("%d cached, %d downloaded", cached, downloaded)
-
-            MANIFEST.write_text(json.dumps(manifest, indent=2))
-    except Exception as exc:
-        run_log.record("ingest_matches", "failed",
-                       time.perf_counter() - started, message=str(exc))
-        raise
-    else:
-        run_log.record("ingest_matches", "ok",
-                       time.perf_counter() - started, rows=rows)
+        MANIFEST.write_text(json.dumps(manifest, indent=2))
 
 
 if __name__ == "__main__":
