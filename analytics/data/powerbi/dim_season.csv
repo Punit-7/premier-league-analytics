@@ -1,0 +1,13 @@
+﻿season_id,season_code,season_label,start_year,end_year,crowd_status,status
+1,1516,2015/16,2015,2016,normal,completed
+2,1617,2016/17,2016,2017,normal,completed
+3,1718,2017/18,2017,2018,normal,completed
+4,1819,2018/19,2018,2019,normal,completed
+5,1920,2019/20,2019,2020,partial_behind_closed_doors,completed
+6,2021,2020/21,2020,2021,behind_closed_doors,completed
+7,2122,2021/22,2021,2022,normal,completed
+8,2223,2022/23,2022,2023,normal,completed
+9,2324,2023/24,2023,2024,normal,completed
+10,2425,2024/25,2024,2025,normal,completed
+11,2526,2025/26,2025,2026,normal,completed
+12,2627,2026/27,2026,2027,normal,in_progress
