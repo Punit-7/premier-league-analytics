@@ -1,0 +1,15 @@
+- name: Fetch, validate, rebuild, export
+env:
+    PL_RUN_ID: ${{ github.run_id }}-${{ github.run_attempt }}
+    LOG_LEVEL: INFO
+run: |
+    python -m src.ingest_matches
+    python -m src.ingest_fpl
+    ...
+
+- name: Upload logs on failure
+  if: failure()
+  uses: actions.upload-artificat@v4
+  with:
+    name: pipeline-logs-${{ github.run_id }}
+    path: analytics/logs/

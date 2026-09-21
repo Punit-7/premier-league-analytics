@@ -1,0 +1,32 @@
+historical_seasons:
+  ["1516,1617,1718,1819,1920,2021,2122,2223,2324,2425,2526"]
+current_season: "2627"
+
+match_source:
+  base_url: "https://www.football-data.co.uk/mmz4281"
+  division: "E0"
+
+fpl_source:
+  base_url: "https://fantasy.premierleague.com/api"
+  request_delay_seconds: 0.35     # be polite: ~700 player calls per full sweep
+
+paths: 
+  raw: "data/raw"
+  fpl_raw: "data/raw/fpl"
+  interim: "data/interim"
+  processed: "data/processed"
+  bi: "data/bi"
+  databases: "data/processed/epl.db"
+
+expectations:
+  matches_per_completed_season: 380
+  teams_per_season: 20
+  matches_per_team_per_season: 38
+  max_plausible_goals: 12
+  max_matches_played_spread: 2
+  squad_size: 15
+  budget_millions: 100.0
+
+season_notes:
+  "1920": partial_behind_closed_doors
+  "2021": behind_closed_doors
