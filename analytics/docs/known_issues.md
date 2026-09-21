@@ -41,3 +41,14 @@ official. P2 uses it for training; the provenance is labelled there.
 
 ## 11. Bookmaker odds columns excluded by design
 Unstable across seasons, and not match facts. P2 uses them as a benchmark.
+
+## 12. FPL team-id lookups all raise on a miss, by deliberate choice
+`clean_players()` originally had four different policies for an unmapped
+club: `canonical()` raised with a message, `players["fpl_team_id"].map(dict)`
+silently produced NaN, `team_by_fpl_id[id]` raised a bare `KeyError` with no
+message, and `.get(id)` silently produced None. The NaN case is the
+dangerous one — it reaches `dim_player`, and a not-yet-written reconciliation
+check that drops nulls before comparing would pass green with a club
+silently missing. Unified all four id-based lookups on
+`team_names.by_fpl_id()`, which always raises with the id and a pointer to
+re-run ingestion. Deviates from the guide's own code on purpose.

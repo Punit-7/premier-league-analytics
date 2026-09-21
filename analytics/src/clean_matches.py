@@ -30,7 +30,7 @@ COUNTS = ["ft_home_goals", "ft_away_goals", "ht_home_goals", "ht_away_goals",
 
 def load_matches() -> pd.DataFrame:
     frames = []
-    for season in CONFIG("all_seasons"):
+    for season in CONFIG["all_seasons"]:
         df = read_raw_match(season)
         df = df[[c for c in RENAME if c in df.columns]].rename(columns=RENAME)
         df["season_code"] = season
