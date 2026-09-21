@@ -59,22 +59,22 @@ def get_logger(name: str) -> logging.Logger:
     return logging.getLogger(f"pipeline.{name.rsplit('.', 1)[-1]}")
 
 @contextmanager
-def stage(logging: logging.Logger, name: str):
+def stage(log: logging.Logger, name: str):
     """Time a pipeline stage and guarantee the failure is recorded.
 
     Without this, an exception inside a stage prints a traceback to stderr and
     leaves nothing in the log file — which is exactly the case you need
     evidence for when a scheduled run fails overnight.
     """
-    
+
     started = time.perf_counter()
-    logging.info("START %s", name)
-    
+    log.info("START %s", name)
+
     try:
         yield
     except Exception:
-        logging.exception("FAILED %s after %.1fs", name, time.perf_counter() - started)
-        
+        log.exception("FAILED %s after %.1fs", name, time.perf_counter() - started)
+        raise
     else:
-        logging.info("DONE %s after %.1fs", name, time.perf_counter() - started)
+        log.info("DONE %s after %.1fs", name, time.perf_counter() - started)
         

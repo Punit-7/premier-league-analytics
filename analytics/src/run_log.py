@@ -9,7 +9,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from logging_setup import LOG_DIR, RUN_ID
+from src.logging_setup import LOG_DIR, RUN_ID
 
 RUNS = LOG_DIR / "runs.jsonl"
 
@@ -22,7 +22,7 @@ def record(stage: str, status: str, duration_s: float, rows: int | None=None, me
         "stage": stage,
         "status": status,
         "finished_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "duration_s": duration_s,
+        "duration_s": round(duration_s, 2),
         "rows": rows,
         "message": message[:500],
     }

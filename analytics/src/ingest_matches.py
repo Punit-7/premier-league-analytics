@@ -1,17 +1,23 @@
-"""Fetch match-result CSVs. Raw is immutable.
-"""
-import time
+"""Fetch raw season files. Completed seasons cached; the live one always re-fetched."""
+import argparse
+import hashlib
+import json
+from datetime import datetime, timezone
 
+import requests
+
+from src.config import CONFIG
 from src.logging_setup import get_logger, stage
-from src import run_log
 
-log=get_logger(__name__)
+log = get_logger(__name__)
+
+MANIFEST = CONFIG["paths"]["raw"] / "match_manifest.json"
 
 
 def main() -> None:
     started = time.perf_counter()
-    rows = None
-    try:
+    rows = None`
+    try:`
         with stage(log, "ingest_matches"):
             manifest = read_manifest()
             cached = downloaded = 0

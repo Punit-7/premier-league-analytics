@@ -1,5 +1,5 @@
 historical_seasons:
-  ["1516,1617,1718,1819,1920,2021,2122,2223,2324,2425,2526"]
+  ["1516","1617","1718","1819","1920","2021","2122","2223","2324","2425","2526"]
 current_season: "2627"
 
 match_source:
@@ -15,8 +15,8 @@ paths:
   fpl_raw: "data/raw/fpl"
   interim: "data/interim"
   processed: "data/processed"
-  bi: "data/bi"
-  databases: "data/processed/epl.db"
+  bi: "data/powerbi"
+  database: "data/processed/epl.db"
 
 expectations:
   matches_per_completed_season: 380
