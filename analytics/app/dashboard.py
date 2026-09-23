@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from app.style import POSITION_COLORS, PLOTLY_LAYOUT, apply_style
+from style import POSITION_COLORS, PLOTLY_LAYOUT, apply_style
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "processed" / "epl.duckdb"
