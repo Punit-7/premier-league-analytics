@@ -1,11 +1,12 @@
 from pathlib import Path
 
 import duckdb
+import numpy as np
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from style import ACCENT, POSITION_COLORS, PLOTLY_LAYOUT, SURFACE, apply_style
+from style import ACCENT, MUTED, POSITION_COLORS, PLOTLY_LAYOUT, SURFACE, apply_style
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "processed" / "epl.duckdb"
@@ -40,10 +41,11 @@ if not DB.exists():
 
 fresh = q("SELECT * FROM refresh_log ORDER BY refreshed_at DESC LIMIT 1")
 st.title("Premier League · Live Season & FPL Tracker")
+stamp = pd.to_datetime(fresh.loc[0, "refreshed_at"]).strftime("%d %b %Y %H:%M")
 st.markdown(
     f"<div class='freshness'>Gameweek {fresh.loc[0,'latest_gameweek']} · "
     f"{int(fresh.loc[0,'live_matches'])} matches played · "
-    f"refreshed {fresh.loc[0,'refreshed_at']} UTC</div>",
+    f"refreshed {stamp} UTC</div>",
     unsafe_allow_html=True,
 )
 
@@ -84,23 +86,72 @@ fig = px.scatter(view, x="price_m", y="points", color="position_short",
                          "position_short": ""})
 fig.update_traces(marker=dict(line=dict(width=0.5, color=SURFACE), opacity=0.85))
 fig.update_layout(height=460)
+if len(view) >= 10:
+    slope, intercept = np.polyfit(view["price_m"], view["points"], 1)
+    xs = np.sort(view["price_m"].unique())
+    fig.add_scatter(
+        x=xs, y=slope * xs + intercept, mode="lines",
+        line=dict(color=MUTED, width=1.4, dash="dash"),
+        name="expected for price", hoverinfo="skip",
+    )
 st.plotly_chart(styled(fig), use_container_width=True)
-st.caption("Bubble size is ownership. Players sitting above the cloud at a "
-           "given price are the ones beating what they cost.")
+st.caption("Bubble size is ownership. The dashed line is points expected at a given "
+           "price — players above it are beating what they cost.")
 
 left, right = st.columns(2)
 with left:
     st.subheader("Best value per million")
+    top = view.nlargest(15, "points_per_million")[
+        ["web_name", "team_name", "position_short", "price_m",
+         "points", "points_per_million"]
+    ]
     st.dataframe(
-        view.nlargest(15, "points_per_million")[
-            ["web_name", "team_name", "position_short", "price_m",
-             "points", "points_per_million"]],
-        use_container_width=True, hide_index=True)
+        top,
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "web_name": "Player",
+            "team_name": "Club",
+            "position_short": st.column_config.TextColumn("Pos", width="small"),
+            "price_m": st.column_config.NumberColumn("Price", format="£%.1fm"),
+            "points": st.column_config.NumberColumn("Pts", format="%d"),
+            "points_per_million": st.column_config.ProgressColumn(
+                "Pts/£m",
+                format="%.2f",
+                min_value=0,
+                max_value=float(top["points_per_million"].max()),
+            ),
+        },
+    )
+    promoted = top["team_name"].value_counts()
+    if not promoted.empty and promoted.iloc[0] >= 4:
+        st.caption(
+            f"{promoted.index[0]} supplies {promoted.iloc[0]} of the top {len(top)}. "
+            "Newly promoted clubs are priced low because they have no top-flight "
+            "record, so early in a season this metric rewards cheapness as much as "
+            "quality. Treat it as a shortlist, not a ranking."
+        )
 
 with right:
     st.subheader("Easiest fixtures, next 5 gameweeks")
-    st.dataframe(q(sql_file("04_fixture_difficulty.sql")),
-                 use_container_width=True, hide_index=True)
+    fdr = q(sql_file("04_fixture_difficulty.sql"))
+    fdr = fdr.drop(columns=["home_fixtures"], errors="ignore")
+    if "opponents" in fdr.columns:
+        long = fdr["opponents"].str.len() > 34
+        fdr.loc[long, "opponents"] = fdr.loc[long, "opponents"].str.slice(0, 34) + "…"
+    st.dataframe(
+        fdr.head(10),
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "team_name": "Club",
+            "fixtures_in_window": st.column_config.NumberColumn(
+                "Games", format="%d", help="6 means a double gameweek, 4 a blank"),
+            "avg_difficulty": st.column_config.NumberColumn(
+                "Avg FDR", format="%.1f"),
+            "opponents": "Next opponents",
+        },
+    )
 
 st.subheader("Player detail")
 pick = st.selectbox("Player", view.sort_values("points", ascending=False)["web_name"])
@@ -112,10 +163,15 @@ detail = q("""
     LEFT JOIN dim_team o ON o.team_id = f.opponent_team_id
     WHERE p.web_name = ?
     ORDER BY f.gameweek_id
-""", (pick,))
-fig2 = px.bar(detail, x="gameweek_id", y="total_points",
+""", (pick,)).sort_values("gameweek_id")
+detail["fixture"] = (
+    detail["gameweek_id"].astype(str)
+    + " " + detail["opponent"].fillna("?")
+    + detail["was_home"].astype("Int64").map({1: " (H)", 0: " (A)"}).fillna("")
+)
+fig2 = px.bar(detail, x="fixture", y="total_points",
               hover_data=["opponent", "minutes", "bonus"],
-              labels={"gameweek_id": "Gameweek", "total_points": "Points"})
+              labels={"fixture": "Gameweek and opponent", "total_points": "Points"})
 fig2.update_traces(marker_color=ACCENT)
 fig2.update_layout(height=300)
 st.plotly_chart(styled(fig2), use_container_width=True)
