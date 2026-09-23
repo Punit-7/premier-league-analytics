@@ -41,12 +41,13 @@ h1, h2, h3 {{
 
 div[data-testid="stMetric"] {{
     background: {SURFACE};
+    color: {INK};
     border: 1px solid {LINE};
     border-radius: 4px;
     padding: 14px 16px;
 }}
 div[data-testid="stMetricLabel"] {{ color: {MUTED}; font-size: .8rem; }}
-div[data-testid="stMetricValue"] {{ font-size: 1.7rem; font-weight: 600; }}
+div[data-testid="stMetricValue"] {{ color: {INK}; font-size: 1.7rem; font-weight: 600; }}
 
 section[data-testid="stSidebar"] {{ border-right: 1px solid {LINE}; }}
 div[data-testid="stDataFrame"] {{ border: 1px solid {LINE}; border-radius: 4px; }}
