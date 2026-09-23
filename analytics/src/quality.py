@@ -8,7 +8,8 @@ log=get_logger(__name__)
 
 
 def main() -> None:
-    raise NotImplementedError("Not implemented yet.")
+    # ponytail: no-op so `make refresh` runs end to end; real contracts arrive in stage 17
+    log.warning("quality checks not implemented yet (stage 17) - skipping")
 
 
 if __name__ == "__main__":

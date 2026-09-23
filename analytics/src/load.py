@@ -52,7 +52,10 @@ def main() -> None:
             matches = pd.read_parquet(INTERIM / "matches_clean.parquet")
             history = pd.read_parquet(INTERIM / "fpl_history.parquet")
             refresh_row = build_refresh_row(matches, history)
-            conn.execute("CREATE OR REPLACE TABLE refresh_log AS SELECT * FROM refresh_row")
+            # Never replaced: one row per refresh accumulates as history.
+            conn.execute("CREATE TABLE IF NOT EXISTS refresh_log AS "
+                         "SELECT * FROM refresh_row LIMIT 0")
+            conn.execute("INSERT INTO refresh_log SELECT * FROM refresh_row")
             log.info("landed %-22s %7d rows", "refresh_log", len(refresh_row))
         log.info("built %s", DB)
 
