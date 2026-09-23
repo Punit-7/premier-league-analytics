@@ -1,18 +1,18 @@
 """Design tokens and injected CSS. One place, so the app stays coherent."""
 import streamlit as st
 
-INK = "#16191A"
-MUTED = "#5E6763"
-LINE = "#D6DAD2"
-SURFACE = "#FFFFFF"
-ACCENT = "#1F6A4A"
+INK = "#E6EAE7"
+MUTED = "#9AA59F"
+LINE = "#2A332F"
+SURFACE = "#161D1A"
+ACCENT = "#3FA877"
 
 # Fixed per position, so a colour means the same thing on every chart.
 POSITION_COLORS = {
-    "GKP": "#8C6D3F",
-    "DEF": "#2F6F8F",
-    "MID": "#1F6A4A",
-    "FWD": "#A6452E",
+    "GKP": "#C9A26B",
+    "DEF": "#5FA8CC",
+    "MID": "#3FA877",
+    "FWD": "#E07A5F",
 }
 
 PLOTLY_LAYOUT = dict(

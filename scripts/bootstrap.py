@@ -91,11 +91,11 @@ ruff==0.8.4
 
 STREAMLIT_THEME = """\
 [theme]
-base = "light"
-primaryColor = "#1F6A4A"
-backgroundColor = "#FAFAF8"
-secondaryBackgroundColor = "#F0F2ED"
-textColor = "#16191A"
+base = "dark"
+primaryColor = "#3FA877"
+backgroundColor = "#0F1412"
+secondaryBackgroundColor = "#18201C"
+textColor = "#E6EAE7"
 font = "sans serif"
 
 [server]

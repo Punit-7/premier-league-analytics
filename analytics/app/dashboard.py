@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from style import POSITION_COLORS, PLOTLY_LAYOUT, apply_style
+from style import ACCENT, POSITION_COLORS, PLOTLY_LAYOUT, SURFACE, apply_style
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "processed" / "epl.duckdb"
@@ -82,7 +82,7 @@ fig = px.scatter(view, x="price_m", y="points", color="position_short",
                  hover_data=["team_name", "points_per_million", "minutes"],
                  labels={"price_m": "Price (£m)", "points": "Season points",
                          "position_short": ""})
-fig.update_traces(marker=dict(line=dict(width=0.5, color="white"), opacity=0.85))
+fig.update_traces(marker=dict(line=dict(width=0.5, color=SURFACE), opacity=0.85))
 fig.update_layout(height=460)
 st.plotly_chart(styled(fig), use_container_width=True)
 st.caption("Bubble size is ownership. Players sitting above the cloud at a "
@@ -116,7 +116,7 @@ detail = q("""
 fig2 = px.bar(detail, x="gameweek_id", y="total_points",
               hover_data=["opponent", "minutes", "bonus"],
               labels={"gameweek_id": "Gameweek", "total_points": "Points"})
-fig2.update_traces(marker_color="#1F6A4A")
+fig2.update_traces(marker_color=ACCENT)
 fig2.update_layout(height=300)
 st.plotly_chart(styled(fig2), use_container_width=True)
 st.caption("One tall bar is a single good week, not form.")
