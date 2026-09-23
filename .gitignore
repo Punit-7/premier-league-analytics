@@ -14,7 +14,13 @@ analytics/logs/*.log
 analytics/logs/runs.jsonl
 
 # Published on purpose by the refresh job
-!analytics/data/processed/epl.db
+!analytics/data/processed/epl.duckdb
 !analytics/data/powerbi/
 
 graphify*
+target/
+
+# dbt: reinstalled by `dbt deps`; local-only telemetry id
+analytics/dbt_packages/
+analytics/.user.yml
+analytics/logs/dbt.log

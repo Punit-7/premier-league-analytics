@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: main
+    description: Landed by the Python pipeline (src/load.py). Never modified by dbt.
+    tables:
+      - name: raw_matches
+        description: One row per completed fixture, from football-data.co.uk.
+      - name: raw_players
+        description: One row per player, from the FPL bootstrap endpoint.
+      - name: raw_positions
+        description: The four FPL squad positions and their squad rules.
+      - name: raw_gameweeks
+        description: The FPL gameweek calendar.
+      - name: raw_fixtures
+        description: One row per team per fixture, with FPL difficulty ratings.
+      - name: raw_player_fixture
+        description: One row per player per fixture, from element-summary.

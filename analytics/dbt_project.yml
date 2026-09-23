@@ -1,0 +1,20 @@
+name: pl_analytics
+version: "1.0.0"
+profile: pl_analytics
+
+vars:
+  current_season: "2627"
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  pl_analytics:
+    staging:
+      +materialized: view        # cheap, always fresh
+    marts:
+      +materialized: table       # queried repeatedly, worth persisting
+    analytics:
+      +materialized: table

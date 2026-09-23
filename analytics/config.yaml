@@ -16,7 +16,7 @@ paths:
   interim: "data/interim"
   processed: "data/processed"
   bi: "data/powerbi"
-  database: "data/processed/epl.db"
+  database: "data/processed/epl.duckdb"
 
 expectations:
   matches_per_completed_season: 380

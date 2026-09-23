@@ -1,0 +1,668 @@
+﻿player_id,web_name,full_name,price_m,selected_by_percent,status,team_name,position_short,position_name,fixtures,appearances,minutes,points,goals,assists,clean_sheets,bonus,points_per_million
+1,Raya,David Raya Martín,6.1,42.1,a,Arsenal,GKP,Goalkeeper,5,5.0,450.0,30.0,0.0,0.0,3.0,3.0,4.92
+3,Meslier,Illan Meslier,4.9,0.0,a,Arsenal,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+15,Ødegaard,Martin Ødegaard,6.8,19.8,a,Arsenal,MID,Midfielder,5,5.0,377.0,29.0,2.0,0.0,3.0,6.0,4.26
+22,Nwaneri,Ethan Nwaneri,5.4,0.0,u,Arsenal,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+24,Nelson,Reiss Nelson,5.5,0.0,u,Arsenal,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+27,G.Jesus,Gabriel Fernando de Jesus,5.9,0.1,u,Arsenal,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+39,Nedeljkovic,Kosta Nedeljkovic,4.0,0.1,u,Aston Villa,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+42,Guessand,Evann Guessand,5.4,0.0,a,Crystal Palace,MID,Midfielder,5,2.0,54.0,2.0,0.0,0.0,0.0,0.0,0.37
+53,Manzambi,Johan Manzambi,5.9,0.3,a,Aston Villa,MID,Midfielder,5,2.0,98.0,14.0,1.0,1.0,1.0,2.0,2.37
+69,Scott,Alex Scott,6.1,5.7,a,AFC Bournemouth,MID,Midfielder,5,5.0,446.0,30.0,1.0,2.0,1.0,5.0,4.92
+72,Gannon-Doak,Ben Gannon-Doak,4.9,0.1,a,AFC Bournemouth,MID,Midfielder,5,4.0,12.0,4.0,0.0,0.0,0.0,0.0,0.82
+74,Brooks,David Brooks,5.0,0.1,a,AFC Bournemouth,MID,Midfielder,5,4.0,45.0,3.0,0.0,0.0,0.0,0.0,0.6
+75,Christie,Ryan Christie,5.0,0.0,a,AFC Bournemouth,MID,Midfielder,5,4.0,102.0,5.0,0.0,0.0,0.0,0.0,1.0
+87,Ajer,Kristoffer Ajer,4.5,3.9,a,Brentford,DEF,Defender,5,5.0,450.0,21.0,0.0,0.0,2.0,1.0,4.67
+95,O.Dango,Dango Ouattara,6.3,0.5,a,Brentford,MID,Midfielder,5,5.0,179.0,7.0,0.0,0.0,1.0,0.0,1.11
+97,Jensen,Mathias Jensen,5.4,0.1,i,Brentford,MID,Midfielder,5,1.0,66.0,6.0,0.0,1.0,1.0,0.0,1.11
+99,Milambo,Antoni Milambo,5.0,0.0,i,Brentford,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+100,Carvalho,Fábio Freitas Gouveia Carvalho,5.0,0.0,a,Brentford,MID,Midfielder,5,1.0,3.0,6.0,1.0,0.0,0.0,0.0,1.2
+102,Yarmoliuk,Yehor Yarmoliuk,4.8,0.7,a,Brentford,MID,Midfielder,5,5.0,216.0,9.0,0.0,1.0,1.0,0.0,1.88
+103,Dasilva,Josh Dasilva,4.9,0.0,i,Brentford,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+114,Boscagli,Olivier Boscagli,4.5,0.3,a,Brighton & Hove Albion,DEF,Defender,5,5.0,437.0,19.0,0.0,0.0,3.0,0.0,4.22
+115,De Cuyper,Maxim De Cuyper,4.9,26.9,a,Brighton & Hove Albion,DEF,Defender,5,5.0,423.0,38.0,1.0,3.0,3.0,5.0,7.76
+118,Igor,Igor Julio dos Santos de Paulo,4.5,0.0,u,Brighton & Hove Albion,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+129,Ayari,Yasin Ayari,5.4,0.4,a,Brighton & Hove Albion,MID,Midfielder,5,4.0,333.0,15.0,1.0,0.0,3.0,0.0,2.78
+134,Oriola,Nehemiah Oriola,4.5,0.2,a,Brighton & Hove Albion,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+140,Sánchez,Robert Lynch Sánchez,4.9,0.7,u,Chelsea,GKP,Goalkeeper,5,1.0,90.0,2.0,0.0,0.0,0.0,0.0,0.41
+144,Gusto,Malo Gusto,5.0,1.0,a,Chelsea,DEF,Defender,5,4.0,272.0,4.0,0.0,0.0,0.0,0.0,0.8
+150,M.Sarr,Mamadou Sarr,4.5,0.0,u,Chelsea,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+162,Andrey Santos,Andrey Nascimento dos Santos,4.8,0.6,a,Manchester United,MID,Midfielder,5,3.0,82.0,4.0,0.0,0.0,0.0,0.0,0.83
+163,D.Essugo,Dário Luís Essugo,4.5,0.1,u,Chelsea,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+166,N.Jackson,Nicolas Jackson,6.5,1.4,a,Aston Villa,FWD,Forward,5,4.0,286.0,10.0,1.0,0.0,1.0,1.0,1.54
+168,Marc Guiu,Marc Guiu Paz,5.0,0.2,u,Chelsea,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+169,Mheuka,Shumaira Mheuka,4.5,0.5,a,Chelsea,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+178,Bidwell,Jake Bidwell,4.0,0.1,a,Coventry City,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+185,Sakamoto,Tatsuhiro Sakamoto,4.8,0.1,a,Coventry City,MID,Midfielder,5,1.0,31.0,1.0,0.0,0.0,0.0,0.0,0.21
+189,Shepherd,George Shepherd,4.4,0.3,a,Coventry City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+190,Tchaouna,Loum Tchaouna,5.4,0.1,a,Coventry City,MID,Midfielder,5,4.0,211.0,5.0,0.0,0.0,0.0,0.0,0.93
+194,Thomas-Asante,Brandon Thomas-Asante,5.0,0.8,a,Coventry City,FWD,Forward,5,5.0,227.0,9.0,0.0,0.0,1.0,0.0,1.8
+195,Simms,Ellis Simms,5.0,0.6,a,Coventry City,FWD,Forward,5,3.0,104.0,4.0,0.0,0.0,0.0,0.0,0.8
+199,Benitez,Walter Benítez,4.5,0.1,a,Crystal Palace,GKP,Goalkeeper,5,2.0,180.0,8.0,0.0,0.0,1.0,0.0,1.78
+201,Muñoz,Daniel Muñoz Mejía,5.4,5.8,a,Nottingham Forest,DEF,Defender,5,4.0,257.0,5.0,0.0,0.0,0.0,0.0,0.93
+204,Mitchell,Tyrick Mitchell,4.5,6.0,a,Crystal Palace,DEF,Defender,5,5.0,419.0,24.0,2.0,0.0,1.0,3.0,5.33
+209,Johnson,Brennan Johnson,5.9,0.1,a,Everton,MID,Midfielder,5,5.0,238.0,9.0,0.0,0.0,2.0,0.0,1.53
+211,Yeremy,Yéremy Pino Santos,5.5,0.4,a,Crystal Palace,MID,Midfielder,5,5.0,307.0,14.0,0.0,2.0,1.0,0.0,2.55
+213,Lerma,Jefferson Lerma Solís,4.9,0.1,a,Crystal Palace,MID,Midfielder,5,2.0,51.0,1.0,0.0,0.0,0.0,0.0,0.2
+224,Nketiah,Eddie Nketiah,5.5,0.5,a,Crystal Palace,FWD,Forward,5,4.0,175.0,8.0,0.0,1.0,0.0,0.0,1.45
+231,Keane,Michael Keane,4.8,0.7,a,Everton,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+237,Ndiaye,Iliman Ndiaye,5.8,6.9,a,Manchester City,MID,Midfielder,5,5.0,385.0,22.0,0.0,2.0,2.0,1.0,3.79
+241,McNeil,Dwight McNeil,5.4,0.1,a,Crystal Palace,MID,Midfielder,5,2.0,84.0,3.0,0.0,0.0,0.0,0.0,0.56
+244,Armstrong,Harrison Armstrong,5.0,0.4,a,Everton,MID,Midfielder,5,5.0,446.0,16.0,0.0,1.0,3.0,0.0,3.2
+249,Barry,Thierno Barry,5.6,8.1,a,Everton,FWD,Forward,5,5.0,417.0,20.0,2.0,0.0,3.0,2.0,3.57
+251,Lecomte,Benjamin Lecomte,4.0,1.1,a,Fulham,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+258,Castagne,Timothy Castagne,4.5,0.9,a,Fulham,DEF,Defender,5,5.0,408.0,20.0,0.0,2.0,2.0,0.0,4.44
+263,Kevin,Kevin Santos Lopes de Macedo,5.3,0.0,a,Fulham,MID,Midfielder,5,4.0,61.0,4.0,0.0,0.0,0.0,0.0,0.75
+269,Sessegnon,Ryan Sessegnon,4.3,0.3,a,Fulham,DEF,Defender,5,3.0,50.0,3.0,0.0,0.0,0.0,0.0,0.7
+270,Reed,Harrison Reed,4.4,1.1,a,Fulham,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+277,Egan,John Egan,4.1,7.1,a,Hull City,DEF,Defender,5,5.0,437.0,26.0,0.0,0.0,3.0,1.0,6.34
+280,Coyle,Lewie Coyle,4.0,0.7,a,Hull City,DEF,Defender,5,5.0,348.0,14.0,0.0,0.0,2.0,0.0,3.5
+281,Drameh,Cody Drameh,4.0,0.0,u,Hull City,DEF,Defender,5,2.0,65.0,2.0,0.0,0.0,0.0,0.0,0.5
+284,McCarthy,Cathal McCarthy,4.0,0.1,a,Hull City,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+286,Belloumi,Mohamed Belloumi,5.1,4.8,a,Hull City,MID,Midfielder,5,5.0,394.0,31.0,2.0,2.0,3.0,2.0,6.08
+297,Gyabi,Darko Gyabi,4.5,0.0,i,Hull City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+312,Taylor,Jack Taylor,4.4,0.0,i,Ipswich Town,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+317,Hirst,George Hirst,5.0,0.1,u,Ipswich Town,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+320,Akpom,Chuba Akpom,5.0,1.2,a,Ipswich Town,FWD,Forward,5,3.0,78.0,7.0,1.0,0.0,0.0,0.0,1.4
+330,Bogle,Jayden Bogle,4.6,6.6,a,Leeds United,DEF,Defender,5,5.0,365.0,42.0,2.0,0.0,4.0,6.0,9.13
+334,Muharemović,Tarik Muharemović,5.0,4.3,a,Leeds United,DEF,Defender,5,5.0,450.0,27.0,0.0,1.0,2.0,0.0,5.4
+338,Ampadu,Ethan Ampadu,5.4,0.9,a,Leeds United,MID,Midfielder,5,5.0,450.0,21.0,0.0,1.0,2.0,0.0,3.89
+347,Nmecha,Lukas Nmecha,5.4,0.5,a,Leeds United,FWD,Forward,5,4.0,64.0,7.0,0.0,1.0,0.0,0.0,1.3
+348,Piroe,Joël Piroe,5.0,0.1,u,Leeds United,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+349,Mateo Joseph,Mateo Joseph Fernández-Regatillo,4.5,0.1,i,Leeds United,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+350,A.Becker,Alisson Becker,5.5,3.9,a,Liverpool,GKP,Goalkeeper,5,5.0,450.0,27.0,0.0,0.0,3.0,5.0,4.91
+356,Virgil,Virgil van Dijk,6.5,16.3,a,Liverpool,DEF,Defender,5,5.0,450.0,25.0,0.0,0.0,3.0,0.0,3.85
+359,Gomez,Joe Gomez,4.9,0.0,a,Liverpool,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+360,Bradley,Conor Bradley,5.0,0.0,i,Liverpool,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+361,Lucky,Wellity Lucky,4.0,0.1,a,Liverpool,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+368,Szoboszlai,Dominik Szoboszlai,7.0,33.4,a,Liverpool,MID,Midfielder,5,5.0,440.0,20.0,1.0,0.0,3.0,1.0,2.86
+370,Chiesa,Federico Chiesa,5.3,0.0,i,Liverpool,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+381,Koumas,Lewis Koumas,5.0,0.0,a,Liverpool,MID,Midfielder,5,3.0,22.0,3.0,0.0,0.0,0.0,0.0,0.6
+404,Reijnders,Tijjani Reijnders,6.0,0.0,u,Manchester City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+407,Echeverri,Claudio Echeverri,4.9,0.0,u,Manchester City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+413,Bayindir,Altay Bayındır,4.5,0.0,u,Manchester United,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+415,Dorgu,Patrick Dorgu,5.8,0.5,a,Manchester United,MID,Midfielder,5,5.0,171.0,10.0,0.0,1.0,0.0,0.0,1.72
+422,Mazraoui,Noussair Mazraoui,4.4,0.5,a,Manchester United,DEF,Defender,5,3.0,97.0,3.0,0.0,0.0,0.0,0.0,0.68
+427,Mbeumo,Bryan Mbeumo,7.9,20.9,a,Manchester United,MID,Midfielder,5,5.0,450.0,25.0,2.0,1.0,0.0,3.0,3.16
+430,Mount,Mason Mount,5.4,0.0,a,Manchester United,MID,Midfielder,5,1.0,10.0,1.0,0.0,0.0,0.0,0.0,0.19
+433,Ugarte,Manuel Ugarte Ribeiro,5.0,0.0,i,Manchester United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+436,Collyer,Toby Collyer,5.0,0.0,u,Manchester United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+438,Fletcher,Tyler Fletcher,4.4,0.3,a,Manchester United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+447,Botman,Sven Botman,5.0,0.7,a,Newcastle United,DEF,Defender,5,5.0,450.0,15.0,0.0,0.0,1.0,0.0,3.0
+458,Joelinton,Joelinton Cássio Apolinário de Lira,5.4,0.0,i,Newcastle United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+470,Morato,Felipe Rodrigues da Silva,5.0,0.0,u,Nottingham Forest,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+471,Milenković,Nikola Milenković,5.4,1.0,i,Nottingham Forest,DEF,Defender,5,3.0,270.0,12.0,0.0,0.0,1.0,0.0,2.22
+474,Jair Cunha,Jair Paula da Cunha Filho,4.5,0.2,a,Nottingham Forest,DEF,Defender,5,4.0,360.0,11.0,0.0,0.0,1.0,0.0,2.44
+475,Savona,Nicolò Savona,4.5,0.0,i,Nottingham Forest,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+476,O.Richards,Omar Richards,4.0,0.2,a,Nottingham Forest,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+481,Anderson,Elliot Anderson,6.3,4.0,a,Manchester City,MID,Midfielder,5,5.0,413.0,15.0,0.0,0.0,2.0,0.0,2.38
+498,Senesi,Marcos Senesi Barón,5.8,3.6,a,Tottenham Hotspur,DEF,Defender,5,1.0,90.0,3.0,0.0,0.0,0.0,0.0,0.52
+503,Van de Ven,Micky van de Ven,5.0,3.9,a,Tottenham Hotspur,DEF,Defender,5,4.0,360.0,16.0,0.0,0.0,2.0,3.0,3.2
+512,Kudus,Mohammed Kudus,6.5,0.1,a,Tottenham Hotspur,MID,Midfielder,5,4.0,123.0,7.0,0.0,1.0,0.0,0.0,1.08
+513,Xavi,Xavi Simons,5.9,0.0,i,Tottenham Hotspur,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+521,Kulusevski,Dejan Kulusevski,6.5,0.0,i,Tottenham Hotspur,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+535,Alderete,Omar Alderete,4.8,0.2,a,Sunderland,DEF,Defender,5,1.0,23.0,1.0,0.0,0.0,0.0,0.0,0.21
+536,Reinildo,Reinildo Mandava,4.4,0.3,a,Sunderland,DEF,Defender,5,4.0,360.0,7.0,0.0,0.0,1.0,0.0,1.59
+538,Hjelde,Leo Fuhr Hjelde,4.0,0.0,u,Sunderland,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+541,Meunier,Thomas Meunier,4.5,0.3,a,Sunderland,DEF,Defender,5,5.0,396.0,14.0,0.0,1.0,1.0,0.0,3.11
+543,Diarra,Habib Diarra,5.4,0.0,i,Sunderland,MID,Midfielder,5,2.0,28.0,5.0,0.0,1.0,0.0,0.0,0.93
+548,Rigg,Chris Rigg,4.9,0.0,a,Sunderland,MID,Midfielder,5,2.0,17.0,2.0,0.0,0.0,0.0,0.0,0.41
+557,Tzolis,Christos Tzolis,6.3,12.5,a,Arsenal,MID,Midfielder,5,5.0,362.0,16.0,0.0,2.0,2.0,1.0,2.54
+565,M.Sangaré,Mamadou Sangaré,5.6,10.2,a,Brentford,MID,Midfielder,5,5.0,321.0,22.0,0.0,2.0,1.0,3.0,3.93
+569,Gonzalo,Gonzalo García,6.0,3.8,a,Fulham,FWD,Forward,5,5.0,425.0,14.0,1.0,0.0,2.0,0.0,2.33
+576,Stroud,Elliot Stroud,5.0,0.1,a,Hull City,MID,Midfielder,5,4.0,249.0,7.0,0.0,0.0,2.0,0.0,1.4
+583,Chavarria,Pep Chavarría,4.9,0.1,a,Chelsea,DEF,Defender,5,5.0,208.0,5.0,0.0,0.0,0.0,0.0,1.02
+587,Rulli,Gerónimo Rulli,5.0,0.0,a,Manchester City,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+588,Khalaili,Anan Khalaili,5.0,0.3,a,Crystal Palace,DEF,Defender,5,5.0,379.0,19.0,1.0,0.0,1.0,0.0,3.8
+605,Yalcouyé,Malick Yalcouyé,4.5,4.0,a,Brighton & Hove Albion,MID,Midfielder,5,5.0,236.0,20.0,2.0,0.0,1.0,1.0,4.44
+616,Bouaddi,Ayyoub Bouaddi,5.5,0.2,a,Manchester City,MID,Midfielder,4,2.0,22.0,2.0,0.0,0.0,0.0,0.0,0.36
+617,Cho,Mohamed-Ali Cho,5.0,0.0,a,Hull City,MID,Midfielder,4,4.0,72.0,9.0,1.0,0.0,0.0,0.0,1.8
+627,Barcola,Bradley Barcola,8.0,1.8,a,Liverpool,MID,Midfielder,3,3.0,168.0,7.0,0.0,0.0,2.0,0.0,0.88
+630,Harwood-Bellis,Taylor Harwood-Bellis,4.5,0.0,a,Aston Villa,DEF,Defender,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+647,Osorio,Darío Osorio,5.5,0.0,a,Crystal Palace,MID,Midfielder,3,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.18
+650,Affengruber,David Affengruber,4.5,0.0,a,Fulham,DEF,Defender,3,2.0,180.0,12.0,0.0,0.0,1.0,0.0,2.67
+66,Soler,Julio Soler Barreto,4.0,0.3,a,AFC Bournemouth,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+88,Kayode,Michael Kayode,4.6,7.7,a,Brentford,DEF,Defender,5,5.0,294.0,23.0,1.0,0.0,2.0,1.0,5.0
+127,Gomez,Diego Gómez Amarilla,5.0,4.0,a,Brighton & Hove Albion,MID,Midfielder,5,5.0,433.0,24.0,0.0,3.0,3.0,0.0,4.8
+152,Palestra,Marco Palestra,5.3,0.6,d,Chelsea,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+186,Mason-Clark,Ephron Mason-Clark,5.4,0.1,a,Coventry City,MID,Midfielder,5,4.0,231.0,5.0,0.0,0.0,0.0,0.0,0.93
+197,Bassette,Norman Bassette,4.5,0.0,u,Coventry City,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+203,Canvot,Jaydee Canvot,4.8,0.2,a,Crystal Palace,DEF,Defender,5,4.0,360.0,10.0,0.0,0.0,1.0,0.0,2.08
+210,Wharton,Adam Wharton,5.5,0.7,a,Crystal Palace,MID,Midfielder,5,5.0,436.0,12.0,0.0,0.0,1.0,0.0,2.18
+214,Kamada,Daichi Kamada,5.0,0.5,a,Crystal Palace,MID,Midfielder,5,5.0,441.0,21.0,0.0,3.0,1.0,0.0,4.2
+219,J.Rak-Sakyi,Jesurun Rak-Sakyi,4.9,0.0,u,Crystal Palace,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+221,Drakes-Thomas,Joél Drakes-Thomas,4.5,0.1,a,Crystal Palace,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+261,Iwobi,Alex Iwobi,5.4,0.6,a,Fulham,MID,Midfielder,5,5.0,408.0,14.0,0.0,0.0,2.0,2.0,2.59
+285,McNair,Paddy McNair,4.0,0.1,a,Hull City,DEF,Defender,5,1.0,26.0,1.0,0.0,0.0,0.0,0.0,0.25
+299,Burstow,Mason Burstow,4.5,0.0,u,Hull City,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+477,Abbott,Zach Abbott,4.0,0.1,u,Nottingham Forest,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+483,Ndoye,Dan Ndoye,5.5,0.7,a,Nottingham Forest,MID,Midfielder,5,5.0,316.0,15.0,1.0,0.0,1.0,2.0,2.73
+494,Vicario,Guglielmo Vicario,4.5,0.1,u,Tottenham Hotspur,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+501,Danso,Kevin Danso,5.0,0.2,a,Sunderland,DEF,Defender,5,3.0,270.0,3.0,0.0,0.0,0.0,0.0,0.6
+507,Phillips,Ashley Phillips,4.5,0.0,u,Tottenham Hotspur,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+560,Penders,Mike Penders,4.4,0.1,a,Chelsea,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+609,Shahar,Leo Shahar,4.0,0.2,u,Newcastle United,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+611,Wan-Bissaka,Aaron Wan-Bissaka,4.5,0.2,a,Aston Villa,DEF,Defender,4,4.0,152.0,6.0,0.0,0.0,0.0,0.0,1.33
+46,Barkley,Ross Barkley,5.0,0.3,a,Aston Villa,MID,Midfielder,5,5.0,308.0,10.0,0.0,0.0,1.0,0.0,2.0
+215,Devenny,Justin Devenny,5.0,0.0,u,Crystal Palace,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+339,Longstaff,Sean Longstaff,4.9,0.1,a,Leeds United,MID,Midfielder,5,2.0,10.0,2.0,0.0,0.0,0.0,0.0,0.41
+373,C.Jones,Curtis Jones,5.5,0.0,u,Liverpool,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+398,Foden,Phil Foden,6.9,1.9,s,Manchester City,MID,Midfielder,5,4.0,217.0,9.0,0.0,2.0,0.0,1.0,1.3
+643,Chilwell,Ben Chilwell,4.5,0.5,a,Crystal Palace,DEF,Defender,3,2.0,29.0,8.0,1.0,0.0,0.0,0.0,1.78
+648,Bahoya,Jean-Mattéo Bahoya,5.0,0.0,a,Leeds United,MID,Midfielder,3,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2
+147,Tosin,Tosin Adarabioyo,4.4,0.1,a,Tottenham Hotspur,DEF,Defender,5,1.0,5.0,1.0,0.0,0.0,0.0,0.0,0.23
+252,McNally,Alfie McNally,4.0,0.1,u,Fulham,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+484,Hutchinson,Omari Hutchinson,5.4,0.1,u,Nottingham Forest,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+599,Cherif,Sidiki Cherif,5.0,0.1,a,Coventry City,FWD,Forward,5,1.0,30.0,1.0,0.0,0.0,0.0,0.0,0.2
+659,Miley,Mason Miley,4.5,0.0,a,Newcastle United,MID,Midfielder,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+657,Nunes,Gustavo Nunes Fernandes Gomes,4.5,0.0,a,Brentford,MID,Midfielder,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+655,Gboho,Yann Gboho,5.5,0.0,a,Coventry City,MID,Midfielder,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+666,Thompson,Kyran Thompson,4.5,0.0,a,Newcastle United,MID,Midfielder,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+665,Mills,Michael Mills,4.5,0.0,a,Newcastle United,MID,Midfielder,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2,Arrizabalaga,Kepa Arrizabalaga Revuelta,4.9,0.1,a,Arsenal,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+8,Calafiori,Riccardo Calafiori,5.8,50.6,a,Arsenal,DEF,Defender,5,5.0,416.0,29.0,0.0,2.0,3.0,2.0,5.0
+12,Saka,Bukayo Saka,9.5,13.4,a,Arsenal,MID,Midfielder,5,5.0,416.0,32.0,3.0,0.0,3.0,4.0,3.37
+13,Rice,Declan Rice,7.4,12.1,d,Arsenal,MID,Midfielder,5,5.0,411.0,20.0,0.0,2.0,3.0,0.0,2.7
+14,Eze,Eberechi Eze,6.3,1.0,a,Arsenal,MID,Midfielder,5,4.0,85.0,4.0,0.0,0.0,0.0,0.0,0.63
+17,Merino,Mikel Merino Zazón,5.8,0.4,a,Arsenal,MID,Midfielder,5,5.0,81.0,4.0,0.0,0.0,0.0,0.0,0.69
+20,Dowman,Max Dowman,5.3,0.1,a,Arsenal,MID,Midfielder,5,1.0,9.0,1.0,0.0,0.0,0.0,0.0,0.19
+30,Digne,Lucas Digne,4.5,0.0,u,Aston Villa,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+35,Bogarde,Lamare Bogarde,5.0,0.1,a,Aston Villa,MID,Midfielder,5,1.0,16.0,1.0,0.0,0.0,0.0,0.0,0.2
+43,Tielemans,Youri Tielemans,5.8,1.5,a,Manchester United,MID,Midfielder,5,5.0,402.0,14.0,0.0,0.0,0.0,0.0,2.41
+47,Kamara,Boubacar Kamara,5.0,0.3,a,Aston Villa,MID,Midfielder,5,5.0,443.0,15.0,0.0,1.0,2.0,0.0,3.0
+48,Onana,Amadou Onana,4.9,0.0,i,Aston Villa,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+55,Watkins,Ollie Watkins,7.8,2.5,u,Aston Villa,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+64,Smith,Adam Smith,4.5,0.1,a,AFC Bournemouth,DEF,Defender,5,5.0,434.0,4.0,0.0,0.0,0.0,0.0,0.89
+70,Kluivert,Justin Kluivert,6.0,0.9,i,AFC Bournemouth,MID,Midfielder,5,4.0,294.0,15.0,1.0,0.0,2.0,1.0,2.5
+71,Cook,Lewis Cook,5.0,0.2,a,AFC Bournemouth,MID,Midfielder,5,5.0,180.0,8.0,0.0,0.0,2.0,0.0,1.6
+83,Valdimarsson,Hákon Rafn Valdimarsson,4.5,0.1,a,Brentford,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+89,Henry,Rico Henry,4.4,0.2,a,Brentford,DEF,Defender,5,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.23
+96,Damsgaard,Mikkel Damsgaard,5.4,0.4,a,Brentford,MID,Midfielder,5,5.0,283.0,16.0,0.0,1.0,2.0,3.0,2.96
+101,Henderson,Jordan Henderson,4.9,0.0,a,Chelsea,MID,Midfielder,5,1.0,90.0,2.0,0.0,0.0,0.0,0.0,0.41
+109,Verbruggen,Bart Verbruggen,4.5,21.7,a,Brighton & Hove Albion,GKP,Goalkeeper,5,5.0,450.0,23.0,0.0,0.0,3.0,0.0,5.11
+132,Howell,Harry Howell,4.5,0.0,u,Brighton & Hove Albion,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+136,Welbeck,Danny Welbeck,5.9,1.0,a,Chelsea,FWD,Forward,5,3.0,85.0,4.0,0.0,0.0,0.0,0.0,0.68
+141,Jörgensen,Filip Jörgensen,5.0,0.0,u,Chelsea,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+148,Hato,Jorrel Hato,4.5,0.8,a,Chelsea,DEF,Defender,5,4.0,258.0,8.0,0.0,2.0,0.0,0.0,1.78
+151,Acheampong,Josh Acheampong,4.5,0.3,a,Chelsea,DEF,Defender,5,4.0,221.0,5.0,0.0,0.0,0.0,0.0,1.11
+158,Gittens,Jamie Bynoe-Gittens,5.8,0.0,a,Chelsea,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+167,Delap,Liam Delap,5.6,2.8,a,Nottingham Forest,FWD,Forward,5,4.0,277.0,9.0,1.0,0.0,1.0,0.0,1.61
+171,Dovin,Oliver Dovin,4.0,1.0,u,Coventry City,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+177,Kesler-Hayden,Kaine Kesler-Hayden,3.9,0.0,i,Coventry City,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+180,Woolfenden,Luke Woolfenden,4.0,0.1,i,Coventry City,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+181,Brau,Miguel Brau,4.0,0.0,u,Coventry City,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+183,Rudoni,Jack Rudoni,4.9,0.1,a,Coventry City,MID,Midfielder,5,5.0,297.0,13.0,0.0,0.0,2.0,0.0,2.65
+198,Henderson,Dean Henderson,5.0,1.3,i,Crystal Palace,GKP,Goalkeeper,5,3.0,270.0,5.0,0.0,0.0,0.0,0.0,1.0
+202,Richards,Chris Richards,5.0,0.6,a,Crystal Palace,DEF,Defender,5,5.0,450.0,14.0,0.0,0.0,1.0,0.0,2.8
+205,Sosa,Borna Sosa,4.5,0.0,u,Crystal Palace,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+217,M.França,Matheus França de Oliveira,4.9,0.0,u,Crystal Palace,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+225,Uche,Christantus Uche,5.0,0.0,u,Crystal Palace,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+238,Grealish,Jack Grealish,6.5,0.5,a,Everton,MID,Midfielder,5,4.0,135.0,6.0,0.0,0.0,1.0,0.0,0.92
+239,Garner,James Garner,6.0,0.2,a,Everton,MID,Midfielder,5,5.0,328.0,11.0,0.0,0.0,2.0,0.0,1.83
+242,George,Tyrique George,5.5,0.9,a,Everton,MID,Midfielder,5,5.0,309.0,19.0,1.0,0.0,2.0,3.0,3.45
+248,Beto,Norberto Bercique Gomes Betuncal,5.4,0.6,u,Everton,FWD,Forward,5,2.0,31.0,2.0,0.0,0.0,0.0,0.0,0.37
+255,J.Cuenca,Jorge Cuenca Barreno,4.5,0.0,a,Fulham,DEF,Defender,5,1.0,90.0,3.0,0.0,0.0,0.0,0.0,0.67
+256,Tete,Kenny Tete,4.4,0.2,a,Fulham,DEF,Defender,5,1.0,27.0,0.0,0.0,0.0,0.0,0.0,0.0
+260,Wilson,Harry Wilson,6.2,1.8,i,Leeds United,MID,Midfielder,5,4.0,145.0,5.0,0.0,0.0,1.0,0.0,0.81
+271,Muniz,Rodrigo Muniz Carvalho,5.4,0.4,a,Fulham,FWD,Forward,5,4.0,38.0,3.0,0.0,0.0,0.0,0.0,0.56
+273,Phillips,Dillon Phillips,4.0,1.4,a,Hull City,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+282,Giles,Ryan Giles,4.0,2.9,a,Hull City,DEF,Defender,5,5.0,444.0,24.0,0.0,1.0,3.0,2.0,6.0
+290,Slater,Regan Slater,4.5,5.3,a,Hull City,MID,Midfielder,5,5.0,437.0,15.0,0.0,1.0,3.0,0.0,3.33
+298,Destan,Enis Destan,4.5,0.2,u,Hull City,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+303,Kipré,Cédric Kipré,3.9,0.9,a,Ipswich Town,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+307,Johnson,Ben Johnson,4.0,0.1,u,Ipswich Town,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+309,Núñez,Marcelino Núñez,4.9,0.1,a,Ipswich Town,MID,Midfielder,5,2.0,140.0,6.0,0.0,0.0,0.0,0.0,1.22
+321,Walle Egeli,Sindre Walle Egeli,4.5,3.6,a,Ipswich Town,FWD,Forward,5,1.0,10.0,1.0,0.0,0.0,0.0,0.0,0.22
+323,McAteer,Kasey McAteer,4.5,1.0,a,Ipswich Town,MID,Midfielder,5,3.0,42.0,3.0,0.0,0.0,0.0,0.0,0.67
+324,Mehmeti,Anis Mehmeti,4.8,0.0,a,Ipswich Town,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+326,Perri,Lucas Estella Perri,4.5,0.3,u,Leeds United,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+328,Struijk,Pascal Struijk,4.9,0.2,a,Brighton & Hove Albion,DEF,Defender,5,3.0,98.0,7.0,0.0,0.0,1.0,0.0,1.43
+332,Justin,James Justin,4.5,1.5,a,Leeds United,DEF,Defender,5,5.0,450.0,26.0,0.0,0.0,2.0,4.0,5.78
+333,Bornauw,Sebastiaan Bornauw,4.5,0.0,u,Leeds United,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+335,Stach,Anton Stach,6.0,2.5,a,Leeds United,MID,Midfielder,5,5.0,447.0,27.0,1.0,0.0,3.0,3.0,4.5
+337,Aaronson,Brenden Aaronson,5.3,0.5,a,Leeds United,MID,Midfielder,5,5.0,194.0,7.0,0.0,0.0,1.0,0.0,1.32
+341,Gnonto,Wilfried Gnonto,5.0,0.0,u,Leeds United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+342,Harrison,Jack Harrison,5.0,0.0,u,Leeds United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+345,Tanaka,Tanaka Ao,4.9,0.3,a,Leeds United,MID,Midfielder,5,4.0,255.0,14.0,0.0,2.0,2.0,0.0,2.86
+357,Frimpong,Jeremie Frimpong,5.3,1.8,a,Liverpool,DEF,Defender,5,3.0,178.0,2.0,0.0,0.0,0.0,0.0,0.38
+366,Wirtz,Florian Wirtz,7.3,5.8,a,Liverpool,MID,Midfielder,5,5.0,402.0,18.0,0.0,2.0,3.0,0.0,2.47
+367,Gakpo,Cody Gakpo,7.2,12.6,a,Liverpool,MID,Midfielder,5,5.0,370.0,32.0,1.0,3.0,2.0,5.0,4.44
+375,Nyoni,Trey Nyoni,4.9,0.0,a,Liverpool,MID,Midfielder,5,3.0,38.0,3.0,0.0,0.0,0.0,0.0,0.61
+377,Munoz,Victor Munoz,6.5,0.9,a,Liverpool,MID,Midfielder,5,5.0,257.0,15.0,1.0,1.0,1.0,0.0,2.31
+379,Isak,Alexander Isak,9.1,22.2,a,Liverpool,FWD,Forward,5,5.0,413.0,33.0,4.0,0.0,3.0,8.0,3.63
+383,Elliott,Harvey Elliott,5.4,0.0,u,Liverpool,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+385,Trafford,James Trafford,5.0,5.5,a,Leeds United,GKP,Goalkeeper,5,5.0,450.0,28.0,0.0,0.0,2.0,5.0,5.6
+387,O'Reilly,Nico O'Reilly,6.4,11.1,a,Manchester City,DEF,Defender,5,4.0,163.0,6.0,0.0,0.0,0.0,0.0,0.94
+392,Aït-Nouri,Rayan Aït-Nouri,5.3,0.4,a,Manchester City,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+394,Alleyne,Max Alleyne,5.0,0.0,u,Manchester City,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+395,Lewis,Rico Lewis,4.4,0.2,a,Manchester City,DEF,Defender,5,1.0,56.0,1.0,0.0,0.0,0.0,0.0,0.23
+396,Vitor Reis,Vitor de Oliveira Nunes dos Reis,4.5,0.0,a,Manchester City,DEF,Defender,5,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.22
+399,Cherki,Rayan Cherki,7.8,28.1,a,Manchester City,MID,Midfielder,5,5.0,302.0,34.0,3.0,2.0,1.0,5.0,4.36
+409,Mukasa,Divine Mukasa,4.5,0.1,u,Manchester City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+410,Monga,Jeremy Monga,4.9,0.0,u,Manchester City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+411,Haaland,Erling Haaland,15.6,73.6,a,Manchester City,FWD,Forward,5,5.0,450.0,39.0,5.0,0.0,2.0,9.0,2.5
+418,Maguire,Harry Maguire,4.9,8.9,a,Manchester United,DEF,Defender,5,5.0,450.0,10.0,0.0,1.0,0.0,0.0,2.04
+423,Shaw,Luke Shaw,4.3,7.9,a,Manchester United,DEF,Defender,5,4.0,335.0,9.0,0.0,1.0,0.0,0.0,2.09
+426,B.Fernandes,Bruno Borges Fernandes,12.0,38.9,a,Manchester United,MID,Midfielder,5,5.0,450.0,31.0,3.0,1.0,0.0,3.0,2.58
+431,Amad,Amad Diallo,5.7,0.3,i,Manchester United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+432,Mainoo,Kobbie Mainoo,5.5,1.6,d,Manchester United,MID,Midfielder,5,5.0,354.0,22.0,0.0,1.0,0.0,2.0,4.0
+443,Gillespie,Mark Gillespie,4.5,0.0,a,Newcastle United,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+444,Jaouen,Ewen Jaouen,4.4,0.0,d,Newcastle United,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+455,Tonali,Sandro Tonali,5.3,1.9,a,Tottenham Hotspur,MID,Midfielder,5,5.0,427.0,14.0,0.0,0.0,2.0,0.0,2.64
+460,Willock,Joe Willock,5.0,0.5,a,Newcastle United,MID,Midfielder,5,5.0,284.0,22.0,2.0,0.0,1.0,3.0,4.4
+473,Aina,Ola Aina,4.5,2.4,a,Nottingham Forest,DEF,Defender,5,4.0,306.0,8.0,0.0,0.0,1.0,0.0,1.78
+479,Bindon,Tyler Bindon,4.0,0.1,u,Nottingham Forest,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+482,Hudson-Odoi,Callum Hudson-Odoi,5.8,0.1,a,Nottingham Forest,MID,Midfielder,5,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.17
+487,Dominguez,Nicolás Domínguez,4.9,0.1,a,Nottingham Forest,MID,Midfielder,5,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2
+488,I.Sangaré,Ibrahim Sangaré,4.9,0.4,a,Nottingham Forest,MID,Midfielder,5,3.0,105.0,4.0,0.0,0.0,0.0,0.0,0.82
+490,Wood,Chris Wood,5.8,0.9,a,Nottingham Forest,FWD,Forward,5,4.0,62.0,4.0,0.0,0.0,0.0,0.0,0.69
+493,Kalimuendo,Arnaud Kalimuendo,5.4,0.1,a,Nottingham Forest,FWD,Forward,5,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.19
+495,Austin,Brandon Austin,4.0,1.0,a,Tottenham Hotspur,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+496,Kinsky,Antonín Kinský,4.5,17.6,a,Tottenham Hotspur,GKP,Goalkeeper,5,5.0,450.0,18.0,0.0,0.0,2.0,0.0,4.0
+509,Byfield,Jun'ai Byfield,4.0,0.1,a,Tottenham Hotspur,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+514,Tel,Mathys Tel,5.7,0.2,a,Tottenham Hotspur,MID,Midfielder,5,4.0,257.0,8.0,0.0,0.0,1.0,0.0,1.4
+517,Odobert,Wilson Odobert,5.5,0.0,i,Tottenham Hotspur,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+520,Bergvall,Lucas Bergvall,5.4,0.1,a,Tottenham Hotspur,MID,Midfielder,5,3.0,78.0,3.0,0.0,0.0,0.0,0.0,0.56
+522,Gray,Archie Gray,4.9,0.2,a,Tottenham Hotspur,MID,Midfielder,5,4.0,307.0,9.0,0.0,0.0,1.0,0.0,1.84
+524,Olusesi,Callum Olusesi,4.4,1.0,a,Tottenham Hotspur,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+525,Fernandes,Mateus Fernandes,5.7,0.8,a,Tottenham Hotspur,MID,Midfielder,5,5.0,249.0,7.0,0.0,0.0,1.0,0.0,1.23
+545,Sadiki,Noah Sadiki,4.9,0.2,a,Sunderland,MID,Midfielder,5,5.0,410.0,10.0,0.0,0.0,1.0,0.0,2.04
+546,Adingra,Simon Adingra,4.9,0.0,u,Sunderland,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+554,Van Oevelen,Kayne van Oevelen,4.5,0.0,u,Ipswich Town,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+556,Targett,Matt Targett,4.0,1.7,d,Hull City,DEF,Defender,5,1.0,5.0,1.0,0.0,0.0,0.0,0.0,0.25
+559,Bamba,Aladji Bamba,4.9,0.1,a,Newcastle United,MID,Midfielder,5,3.0,27.0,3.0,0.0,0.0,0.0,0.0,0.61
+561,Anselmino,Aaron Anselmino,4.5,0.0,a,Chelsea,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+573,Sanchez,Juanlu Sánchez,4.4,0.2,a,AFC Bournemouth,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+575,Yirenkyi,Caleb Yirenkyi,4.8,0.1,a,Coventry City,MID,Midfielder,5,5.0,265.0,9.0,0.0,0.0,2.0,0.0,1.88
+582,Madjo,Brian Madjo,5.4,0.2,i,Aston Villa,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+586,Mendy,Nobel Mendy,4.1,6.3,a,Hull City,DEF,Defender,5,4.0,249.0,25.0,1.0,0.0,2.0,1.0,6.1
+590,Benda,Steven Benda,4.5,0.1,a,Nottingham Forest,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+593,Dedić,Amar Dedic,4.5,1.9,i,Newcastle United,DEF,Defender,5,4.0,327.0,13.0,0.0,1.0,1.0,2.0,2.89
+596,Ruggeri,Matteo Ruggeri,4.5,0.1,a,Aston Villa,DEF,Defender,5,3.0,113.0,5.0,0.0,0.0,0.0,0.0,1.11
+598,Elvedi,Nico Elvedi,4.5,0.1,a,Leeds United,DEF,Defender,5,4.0,326.0,13.0,0.0,0.0,1.0,0.0,2.89
+603,Lienou,Jayden Lienou,4.0,0.1,a,Leeds United,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+610,De Fougerolles,Luc De Fougerolles,4.0,0.1,u,Fulham,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+612,Methalie,Dayann Méthalie,4.5,0.0,a,Sunderland,DEF,Defender,4,1.0,90.0,-1.0,0.0,0.0,0.0,0.0,-0.22
+620,Diouf,El Hadji Malick Diouf,4.5,0.1,a,Brentford,DEF,Defender,4,2.0,39.0,2.0,0.0,0.0,0.0,0.0,0.44
+622,Braithwaite,Kaden Braithwaite,4.0,0.2,a,Manchester City,DEF,Defender,4,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25
+629,Zetterer,Michael Zetterer,4.0,0.7,a,Leeds United,GKP,Goalkeeper,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+631,Mbaye,Ibrahim Mbaye,6.0,0.1,a,Aston Villa,MID,Midfielder,3,2.0,33.0,2.0,0.0,0.0,0.0,0.0,0.33
+632,Ansah,Ilyas Ansah,5.0,0.0,i,Hull City,FWD,Forward,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+634,Fernandez-Pardo,Matias Fernandez-Pardo,6.0,0.1,a,Newcastle United,FWD,Forward,3,3.0,157.0,4.0,0.0,0.0,0.0,0.0,0.67
+635,Larsson,Hugo Larsson,5.0,0.0,a,Fulham,MID,Midfielder,3,3.0,37.0,3.0,0.0,0.0,0.0,0.0,0.6
+638,Norton-Cuffy,Brooke Norton-Cuffy,4.0,0.3,d,Hull City,DEF,Defender,3,2.0,34.0,1.0,0.0,0.0,0.0,0.0,0.25
+639,Andrés,José María Andrés Baixauli,5.5,0.0,a,Brighton & Hove Albion,MID,Midfielder,3,2.0,109.0,12.0,1.0,1.0,1.0,0.0,2.18
+653,Samba,Floyd Samba,4.5,0.0,a,Manchester City,MID,Midfielder,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+33,Mings,Tyrone Mings,4.5,0.4,a,Aston Villa,DEF,Defender,5,4.0,261.0,10.0,0.0,0.0,1.0,0.0,2.22
+58,Forster,Fraser Forster,4.0,3.5,a,AFC Bournemouth,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+94,Schade,Kevin Schade,6.1,10.2,a,Brentford,MID,Midfielder,5,5.0,447.0,39.0,3.0,2.0,2.0,6.0,6.39
+193,Wright,Haji Wright,5.4,0.1,i,Coventry City,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+196,Markelo,Jahnoah Markelo,5.0,0.0,u,Coventry City,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+292,Ömür,Abdülkadir Ömür,4.9,0.0,a,Hull City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+362,Jacquet,Jeremy Jacquet,5.0,3.4,a,Liverpool,DEF,Defender,5,5.0,415.0,24.0,0.0,0.0,3.0,3.0,4.8
+372,Mac Allister,Alexis Mac Allister,5.4,1.3,a,Liverpool,MID,Midfielder,5,5.0,306.0,11.0,0.0,0.0,2.0,0.0,2.04
+451,A.Murphy,Alex Murphy,4.0,0.1,u,Newcastle United,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+461,Touré,Bazoumana Touré,5.8,0.1,a,Newcastle United,MID,Midfielder,5,3.0,50.0,8.0,1.0,0.0,0.0,0.0,1.38
+497,Dubravka,Martin Dubravka,4.0,17.3,a,Tottenham Hotspur,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+540,Masuaku,Arthur Masuaku,4.0,0.1,u,Sunderland,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+553,Isidor,Wilson Isidor,5.5,1.3,a,Sunderland,FWD,Forward,5,5.0,117.0,15.0,1.0,1.0,0.0,3.0,2.73
+567,Horníček,Lukás Hornícek,5.0,1.5,a,Newcastle United,GKP,Goalkeeper,5,5.0,450.0,14.0,0.0,0.0,1.0,0.0,2.8
+623,Bentley,Dan Bentley,4.0,0.6,a,Coventry City,GKP,Goalkeeper,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+628,Allan,Allan Andrade Elias,6.0,0.0,a,Manchester City,MID,Midfielder,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+80,Enes Ünal,Enes Ünal,5.5,0.0,u,AFC Bournemouth,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+264,Bobb,Oscar Bobb,5.5,0.3,a,Fulham,MID,Midfielder,5,5.0,343.0,13.0,0.0,0.0,3.0,0.0,2.36
+340,Gelhardt,Joe Gelhardt,5.0,0.0,a,Hull City,MID,Midfielder,5,1.0,7.0,1.0,0.0,0.0,0.0,0.0,0.2
+446,Schär,Fabian Schär,4.9,0.2,a,Newcastle United,DEF,Defender,5,2.0,25.0,2.0,0.0,0.0,0.0,0.0,0.41
+578,Mudryk,Mykhailo Mudryk,5.3,0.0,i,Tottenham Hotspur,MID,Midfielder,5,1.0,16.0,1.0,0.0,0.0,0.0,0.0,0.19
+265,Berge,Sander Berge,4.9,0.3,a,Fulham,MID,Midfielder,5,5.0,349.0,11.0,0.0,0.0,2.0,0.0,2.24
+146,B.Badiashile,Benoît Badiashile Mukinayi,4.5,0.0,u,Chelsea,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+656,Mfuni,Stephen Mfuni,4.0,0.1,a,Coventry City,DEF,Defender,2,1.0,90.0,6.0,0.0,0.0,1.0,0.0,1.5
+5,J.Timber,Jurriën Timber,6.5,0.4,a,Arsenal,DEF,Defender,5,2.0,104.0,1.0,0.0,0.0,0.0,0.0,0.15
+6,Saliba,William Saliba,5.9,0.2,i,Arsenal,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+7,Lewis-Skelly,Myles Lewis-Skelly,5.4,0.6,a,Arsenal,MID,Midfielder,5,4.0,271.0,9.0,0.0,0.0,2.0,0.0,1.67
+9,Hincapie,Piero Hincapié,5.2,0.9,a,Arsenal,DEF,Defender,5,2.0,32.0,2.0,0.0,0.0,0.0,0.0,0.38
+16,Madueke,Noni Madueke,6.2,0.2,a,Arsenal,MID,Midfielder,5,2.0,23.0,2.0,0.0,0.0,0.0,0.0,0.32
+26,Havertz,Kai Havertz,7.6,8.5,a,Arsenal,FWD,Forward,5,5.0,437.0,19.0,2.0,0.0,3.0,2.0,2.5
+28,Martinez,Emiliano Martínez Romero,5.0,4.8,a,Chelsea,GKP,Goalkeeper,5,4.0,360.0,9.0,0.0,0.0,0.0,0.0,1.8
+31,Konsa,Ezri Konsa Ngoyo,4.6,19.4,a,Arsenal,DEF,Defender,5,4.0,281.0,12.0,0.0,0.0,1.0,0.0,2.61
+36,Maatsen,Ian Maatsen,4.5,0.5,i,Aston Villa,DEF,Defender,5,4.0,335.0,9.0,0.0,0.0,1.0,1.0,2.0
+44,Bailey,Leon Bailey,5.4,0.1,u,Aston Villa,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+49,Iling Jr,Samuel Iling-Junior,5.0,0.0,u,Aston Villa,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+50,Burrowes,Bradley Burrowes,4.5,0.6,a,Aston Villa,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+51,George Hemmings,George Hemmings,4.5,1.2,a,Aston Villa,MID,Midfielder,5,5.0,297.0,9.0,0.0,0.0,1.0,0.0,2.0
+57,Petrović,Đorđe Petrović,4.5,3.0,a,AFC Bournemouth,GKP,Goalkeeper,5,5.0,450.0,9.0,0.0,0.0,0.0,0.0,2.0
+59,Dennis,Will Dennis,4.0,0.1,u,AFC Bournemouth,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+62,Diakité,Bafodé Diakité,4.9,0.2,a,AFC Bournemouth,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+67,Rayan,Rayan Vitor Simplício Rocha,6.3,1.6,a,AFC Bournemouth,MID,Midfielder,5,5.0,434.0,10.0,0.0,0.0,0.0,0.0,1.59
+68,Tavernier,Marcus Tavernier,6.1,6.7,a,AFC Bournemouth,MID,Midfielder,5,5.0,424.0,31.0,3.0,0.0,0.0,8.0,5.08
+76,Tóth.A,Alex Tóth,4.9,0.0,a,AFC Bournemouth,MID,Midfielder,5,2.0,17.0,2.0,0.0,0.0,0.0,0.0,0.41
+77,Adli,Amine Adli,4.9,0.0,i,AFC Bournemouth,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+79,Evanilson,Francisco Evanilson de Lima Barbosa,6.0,3.2,a,AFC Bournemouth,FWD,Forward,5,5.0,424.0,18.0,0.0,3.0,2.0,0.0,3.0
+81,Rodríguez,Álvaro Rodríguez,6.0,0.1,a,AFC Bournemouth,FWD,Forward,5,2.0,10.0,2.0,0.0,0.0,0.0,0.0,0.33
+82,Kelleher,Caoimhín Kelleher,5.0,6.2,a,Brentford,GKP,Goalkeeper,5,5.0,450.0,20.0,0.0,0.0,2.0,0.0,4.0
+84,Collins,Nathan Collins,5.4,1.0,i,Brentford,DEF,Defender,5,3.0,196.0,10.0,0.0,0.0,1.0,0.0,1.85
+85,Van den Berg,Sepp van den Berg,4.9,0.1,i,Brentford,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+91,Pinnock,Ethan Pinnock,4.5,0.1,a,Coventry City,DEF,Defender,5,4.0,282.0,14.0,0.0,0.0,1.0,0.0,3.11
+92,Ji-soo,Kim Ji-soo,4.4,0.0,a,Brentford,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+98,Janelt,Vitaly Janelt,5.0,2.5,a,Brentford,MID,Midfielder,5,5.0,450.0,28.0,2.0,0.0,2.0,3.0,5.6
+104,Onyeka,Frank Onyeka,4.9,0.1,a,Coventry City,MID,Midfielder,5,4.0,314.0,9.0,0.0,0.0,1.0,0.0,1.84
+112,Van Hecke,Jan Paul van Hecke,4.9,6.6,a,Tottenham Hotspur,DEF,Defender,5,5.0,450.0,24.0,1.0,0.0,2.0,2.0,4.9
+116,Dunk,Lewis Dunk,4.5,1.5,a,Brighton & Hove Albion,DEF,Defender,5,4.0,360.0,22.0,1.0,0.0,2.0,1.0,4.89
+120,Svoboda,Michael Svoboda,5.0,0.1,a,Brighton & Hove Albion,DEF,Defender,5,1.0,4.0,1.0,0.0,0.0,0.0,0.0,0.2
+122,Minteh,Yankuba Minteh,5.8,0.0,i,Brighton & Hove Albion,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+123,Hinshelwood,Jack Hinshelwood,5.9,0.6,i,Brighton & Hove Albion,MID,Midfielder,5,1.0,63.0,16.0,2.0,0.0,1.0,3.0,2.71
+128,Buonanotte,Facundo Buonanotte,5.0,0.0,u,Brighton & Hove Albion,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+138,Kostoulas,Charalampos Kostoulas,5.6,3.2,a,Brighton & Hove Albion,FWD,Forward,5,5.0,353.0,28.0,2.0,3.0,2.0,3.0,5.0
+143,Chalobah,Trevoh Chalobah,5.5,0.1,u,Chelsea,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+155,Enzo,Enzo Fernández,6.9,3.6,a,Manchester City,MID,Midfielder,5,4.0,271.0,13.0,1.0,0.0,2.0,0.0,1.88
+156,Neto,Pedro Lomba Neto,6.5,1.4,a,Chelsea,MID,Midfielder,5,5.0,332.0,14.0,1.0,0.0,0.0,0.0,2.15
+160,Garnacho,Alejandro Garnacho Ferreyra,5.8,0.3,a,Aston Villa,MID,Midfielder,5,3.0,31.0,3.0,0.0,0.0,0.0,0.0,0.52
+170,Emegha,Emmanuel Emegha,5.0,0.1,i,Chelsea,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+174,Kitching,Liam Kitching,4.0,0.3,u,Coventry City,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+175,van Ewijk,Milan van Ewijk,4.0,9.0,d,Coventry City,DEF,Defender,5,4.0,360.0,6.0,0.0,0.0,0.0,0.0,1.5
+182,Amenda,Aurèle Amenda,4.0,0.6,i,Coventry City,DEF,Defender,5,4.0,360.0,4.0,0.0,0.0,0.0,0.0,1.0
+187,Eccles,Josh Eccles,4.8,0.0,i,Coventry City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+192,Andrews,Kai Andrews,4.5,0.3,u,Coventry City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+200,Lacroix,Maxence Lacroix,5.9,6.8,a,Chelsea,DEF,Defender,5,5.0,364.0,13.0,0.0,1.0,0.0,0.0,2.2
+208,Sarr,Ismaïla Sarr,6.2,0.6,a,Crystal Palace,MID,Midfielder,5,1.0,8.0,1.0,0.0,0.0,0.0,0.0,0.16
+212,Hughes,Will Hughes,4.4,7.5,a,Crystal Palace,MID,Midfielder,5,2.0,29.0,2.0,0.0,0.0,0.0,0.0,0.45
+216,Esse,Romain Esse,5.0,0.0,u,Crystal Palace,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+220,Cardines,Rio Cardines,4.5,0.0,u,Crystal Palace,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+227,Travers,Mark Travers,5.0,0.0,a,Everton,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+228,King,Tom King,4.5,0.0,a,Everton,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+229,Tarkowski,James Tarkowski,6.1,15.5,a,Everton,DEF,Defender,5,5.0,450.0,43.0,1.0,1.0,3.0,7.0,7.05
+230,Branthwaite,Jarrad Branthwaite,5.5,2.4,a,Everton,DEF,Defender,5,5.0,450.0,27.0,0.0,0.0,3.0,0.0,4.91
+233,Mykolenko,Vitalii Mykolenko,4.6,4.2,a,Everton,DEF,Defender,5,5.0,450.0,27.0,0.0,0.0,3.0,3.0,5.87
+234,Patterson,Nathan Patterson,4.5,0.0,u,Everton,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+240,Iroegbunam,Tim Iroegbunam,5.0,0.0,a,Hull City,MID,Midfielder,5,3.0,70.0,2.0,0.0,0.0,0.0,0.0,0.4
+245,Dibling,Tyler Dibling,5.4,0.0,a,Everton,MID,Midfielder,5,1.0,24.0,1.0,0.0,0.0,0.0,0.0,0.19
+246,Röhl,Merlin Röhl,4.9,0.0,i,Everton,MID,Midfielder,5,3.0,249.0,6.0,0.0,0.0,1.0,0.0,1.22
+250,Leno,Bernd Leno,4.5,3.3,a,Fulham,GKP,Goalkeeper,5,5.0,450.0,18.0,0.0,0.0,1.0,2.0,4.0
+253,Andersen,Joachim Andersen,5.0,0.1,a,Fulham,DEF,Defender,5,3.0,190.0,3.0,0.0,0.0,0.0,0.0,0.6
+254,Robinson,Antonee Robinson,4.5,1.4,a,Fulham,DEF,Defender,5,5.0,429.0,12.0,0.0,0.0,1.0,0.0,2.67
+259,Diop,Issa Diop,4.0,12.9,a,Ipswich Town,DEF,Defender,5,5.0,450.0,12.0,0.0,0.0,0.0,0.0,3.0
+266,Cairney,Tom Cairney,4.9,0.0,i,Fulham,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+267,Lukić,Saša Lukić,4.9,0.1,a,Ipswich Town,MID,Midfielder,5,5.0,400.0,11.0,0.0,1.0,0.0,0.0,2.24
+275,Cartwright,Harvey Cartwright,4.0,0.0,u,Hull City,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+289,Crooks,Matt Crooks,4.4,0.5,a,Hull City,MID,Midfielder,5,3.0,203.0,3.0,0.0,0.0,1.0,0.0,0.68
+296,Akintola,David Akintola,5.0,0.0,u,Hull City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+300,Walton,Christian Walton,4.4,0.4,a,Ipswich Town,GKP,Goalkeeper,5,1.0,90.0,2.0,0.0,0.0,0.0,0.0,0.45
+310,Matusiwa,Azor Matusiwa,4.9,0.0,a,Ipswich Town,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+314,Ogbene,Chiedozie Ogbene,4.9,0.0,u,Ipswich Town,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+315,Fatawu,Abdul Fatawu,5.4,0.2,s,Ipswich Town,MID,Midfielder,5,5.0,352.0,8.0,0.0,1.0,0.0,0.0,1.48
+319,Szmodics,Sam Szmodics,5.0,0.0,u,Ipswich Town,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+327,Bijol,Jaka Bijol,5.0,0.7,a,Leeds United,DEF,Defender,5,3.0,164.0,12.0,0.0,0.0,1.0,2.0,2.4
+336,Okafor,Noah Okafor,5.8,0.4,a,Leeds United,MID,Midfielder,5,5.0,299.0,18.0,1.0,0.0,3.0,1.0,3.1
+344,Gruev,Ilia Gruev,5.0,0.0,a,Leeds United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+346,Calvert-Lewin,Dominic Calvert-Lewin,6.0,25.1,a,Leeds United,FWD,Forward,5,5.0,419.0,22.0,2.0,1.0,3.0,4.0,3.67
+353,Pecsi,Armin Pecsi,4.0,0.0,u,Liverpool,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+354,Jaros,Vitezslav Jaros,4.0,0.0,i,Liverpool,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+358,Kerkez,Milos Kerkez,5.4,2.3,a,Liverpool,DEF,Defender,5,5.0,385.0,13.0,0.0,0.0,2.0,0.0,2.41
+364,Tsimikas,Kostas Tsimikas,4.9,0.1,a,Liverpool,DEF,Defender,5,2.0,64.0,2.0,0.0,0.0,0.0,0.0,0.41
+365,Ramsay,Calvin Ramsay,4.0,0.1,u,Liverpool,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+369,Ngumoha,Rio Ngumoha,5.7,0.5,a,Liverpool,MID,Midfielder,5,3.0,99.0,4.0,0.0,0.0,0.0,0.0,0.7
+374,Endo,Endo Wataru,4.9,0.1,a,Liverpool,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+378,McConnell,James McConnell,4.4,0.2,a,Liverpool,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+380,Ekitiké,Hugo Ekitiké,7.4,0.1,i,Liverpool,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+386,Bettinelli,Marcus Bettinelli,4.5,0.0,a,Manchester City,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+391,Gvardiol,Joško Gvardiol,5.7,26.5,a,Manchester City,DEF,Defender,5,5.0,434.0,37.0,1.0,3.0,2.0,6.0,6.49
+393,Khusanov,Abdukodir Khusanov,5.4,1.4,a,Manchester City,DEF,Defender,5,3.0,268.0,9.0,0.0,0.0,1.0,0.0,1.67
+406,Kovačić,Mateo Kovačić,5.4,0.1,a,Manchester City,MID,Midfielder,5,2.0,42.0,2.0,0.0,0.0,0.0,0.0,0.37
+420,Yoro,Leny Yoro,4.8,0.5,a,Manchester United,DEF,Defender,5,2.0,22.0,2.0,0.0,0.0,0.0,0.0,0.42
+424,Amass,Harry Amass,4.0,0.2,a,Manchester United,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+425,Fredricson,Tyler Fredricson,4.0,0.0,u,Manchester United,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+428,Cunha,Matheus Santos Carneiro da Cunha,7.9,5.7,a,Manchester United,MID,Midfielder,5,5.0,407.0,26.0,1.0,2.0,1.0,4.0,3.29
+429,Rashford,Marcus Rashford,7.0,1.5,d,Manchester United,MID,Midfielder,5,5.0,351.0,10.0,0.0,0.0,1.0,0.0,1.43
+434,J.Fletcher,Jack Fletcher,4.9,0.0,a,Manchester United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+437,Bendito Mantato,Bendito Mantato,4.5,0.2,a,Manchester United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+440,Zirkzee,Joshua Zirkzee,5.3,0.4,a,Manchester United,FWD,Forward,5,2.0,20.0,2.0,0.0,0.0,0.0,0.0,0.38
+441,Obi,Chido Obi,4.5,1.0,u,Manchester United,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+442,Pope,Nick Pope,4.9,1.0,a,Newcastle United,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+448,Burn,Dan Burn,4.8,0.7,i,Newcastle United,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+450,Livramento,Tino Livramento,4.9,0.1,d,Newcastle United,DEF,Defender,5,2.0,33.0,4.0,0.0,1.0,0.0,0.0,0.82
+453,Barnes,Harvey Barnes,6.1,5.3,a,Newcastle United,MID,Midfielder,5,5.0,450.0,28.0,1.0,3.0,1.0,3.0,4.59
+457,J.Murphy,Jacob Murphy,5.9,0.1,a,Newcastle United,MID,Midfielder,5,5.0,181.0,3.0,0.0,0.0,0.0,0.0,0.51
+465,Osula,William Osula,5.8,0.3,i,Newcastle United,FWD,Forward,5,1.0,55.0,4.0,0.0,1.0,0.0,0.0,0.69
+467,Sels,Matz Sels,5.0,1.6,a,Nottingham Forest,GKP,Goalkeeper,5,5.0,450.0,14.0,0.0,0.0,1.0,0.0,2.8
+469,N.Williams,Neco Williams,5.0,8.9,a,Nottingham Forest,DEF,Defender,5,5.0,450.0,19.0,0.0,1.0,1.0,1.0,3.8
+478,Netz,Luca Netz,4.4,0.0,a,Nottingham Forest,DEF,Defender,5,3.0,27.0,3.0,0.0,0.0,0.0,0.0,0.68
+485,Bakwa,Dilane Bakwa,5.5,0.0,u,Nottingham Forest,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+489,Yates,Ryan Yates,4.5,1.2,a,Nottingham Forest,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+492,Awoniyi,Taiwo Awoniyi,5.4,0.4,s,Coventry City,FWD,Forward,5,4.0,232.0,3.0,0.0,0.0,0.0,0.0,0.56
+502,Robertson,Andrew Robertson,4.4,2.6,a,Tottenham Hotspur,DEF,Defender,5,5.0,366.0,17.0,0.0,1.0,1.0,1.0,3.86
+504,Vuskovic,Luka Vušković,5.0,3.5,a,Brighton & Hove Albion,DEF,Defender,5,5.0,437.0,32.0,1.0,0.0,3.0,2.0,6.4
+506,Udogie,Destiny Udogie,4.4,0.3,a,Tottenham Hotspur,DEF,Defender,5,3.0,86.0,7.0,0.0,0.0,1.0,0.0,1.59
+508,Davies,Ben Davies,3.9,0.9,a,Tottenham Hotspur,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+516,Bentancur,Rodrigo Bentancur,5.5,0.2,a,Tottenham Hotspur,MID,Midfielder,5,5.0,370.0,15.0,0.0,0.0,2.0,0.0,2.73
+519,Gallagher,Conor Gallagher,5.3,0.2,a,Tottenham Hotspur,MID,Midfielder,5,3.0,134.0,9.0,1.0,0.0,1.0,0.0,1.7
+528,Scarlett,Dane Scarlett,4.5,1.1,u,Tottenham Hotspur,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+530,Patterson,Anthony Patterson,4.0,0.1,u,Sunderland,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+532,Ballard,Daniel Ballard,4.9,2.6,a,Sunderland,DEF,Defender,5,5.0,450.0,14.0,0.0,0.0,1.0,0.0,2.86
+534,Hume,Trai Hume,4.3,2.9,a,Sunderland,DEF,Defender,5,4.0,206.0,10.0,0.0,0.0,1.0,0.0,2.33
+550,Jocelin.T,Djiamgone Jocelin Ta Bi,5.0,0.0,a,Sunderland,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+558,Schlager,Xaver Schlager,5.0,0.1,a,Nottingham Forest,MID,Midfielder,5,5.0,376.0,13.0,0.0,0.0,1.0,0.0,2.6
+570,Palacios,César Palacios,5.4,0.2,a,Fulham,MID,Midfielder,5,4.0,226.0,12.0,1.0,0.0,0.0,1.0,2.22
+572,Tzolakis,Konstantinos Tzolakis,4.6,12.2,a,Hull City,GKP,Goalkeeper,5,5.0,450.0,34.0,0.0,0.0,3.0,6.0,7.39
+574,Hjertø-Dahl,Jens Hjertø-Dahl,4.9,0.1,a,Hull City,MID,Midfielder,5,1.0,8.0,1.0,0.0,0.0,0.0,0.0,0.2
+577,Tomiyasu,Takehiro Tomiyasu,4.4,0.3,d,Crystal Palace,DEF,Defender,5,4.0,189.0,3.0,0.0,0.0,0.0,0.0,0.68
+579,Araujo,Ronald Araujo,5.4,3.0,a,Liverpool,DEF,Defender,5,5.0,284.0,22.0,0.0,0.0,3.0,1.0,4.07
+580,Charles,Shea Charles,5.0,0.1,a,Fulham,MID,Midfielder,5,5.0,303.0,13.0,0.0,0.0,1.0,0.0,2.6
+581,Diomande,Ousmane Diomande,5.4,0.5,a,Nottingham Forest,DEF,Defender,5,3.0,163.0,7.0,0.0,0.0,0.0,0.0,1.3
+584,Hamer,Gustavo Hamer,5.4,0.1,a,Coventry City,MID,Midfielder,5,3.0,32.0,3.0,0.0,0.0,0.0,0.0,0.56
+592,Ouattara,Abdoul Ouattara,4.0,0.9,a,Ipswich Town,DEF,Defender,5,5.0,131.0,6.0,0.0,0.0,0.0,0.0,1.5
+594,David,Promise David,5.9,0.2,a,Brighton & Hove Albion,FWD,Forward,5,2.0,23.0,1.0,0.0,0.0,0.0,0.0,0.17
+601,Williams-Barnett,Luca Williams-Barnett,4.5,0.1,a,Tottenham Hotspur,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+602,Humphreys,Cameron Humphreys,4.5,0.0,u,Ipswich Town,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+615,Di Gregorio,Michele Di Gregorio,4.5,0.0,a,AFC Bournemouth,GKP,Goalkeeper,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+619,Palacios,Exequiel Palacios,5.0,0.1,a,Ipswich Town,MID,Midfielder,4,4.0,275.0,11.0,0.0,0.0,0.0,0.0,2.2
+624,Cozier-Duberry,Amario Cozier-Duberry,5.0,0.0,u,Brighton & Hove Albion,MID,Midfielder,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+625,Cairns,Alex Cairns,4.0,0.2,a,Leeds United,GKP,Goalkeeper,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+626,Zepa,Macaulay Zepa,4.5,0.3,a,Fulham,MID,Midfielder,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+633,Ahanor,Honest Ahanor,4.5,0.0,a,Crystal Palace,DEF,Defender,3,1.0,90.0,3.0,0.0,0.0,0.0,0.0,0.67
+636,Ángel,Manuel Ángel Morán Ibáñez,5.0,0.0,a,Fulham,MID,Midfielder,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+637,Vaz,Robinio Vaz,5.0,0.1,a,Hull City,FWD,Forward,3,2.0,20.0,2.0,0.0,0.0,0.0,0.0,0.4
+640,Flemming,Zian Flemming,5.5,0.1,a,Ipswich Town,FWD,Forward,3,3.0,60.0,6.0,1.0,0.0,0.0,0.0,1.09
+644,Timber,Quinten Timber,5.0,0.0,a,Crystal Palace,MID,Midfielder,3,3.0,253.0,9.0,0.0,0.0,1.0,0.0,1.8
+645,Mouzakitis,Christos Mouzakitis,5.0,0.0,a,Hull City,MID,Midfielder,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+649,Maitland-Niles,Ainsley Maitland-Niles,4.5,1.2,a,Everton,DEF,Defender,3,3.0,177.0,21.0,1.0,0.0,2.0,2.0,4.67
+651,J.Angulo,Juan Angulo,4.5,0.7,a,Sunderland,FWD,Forward,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+652,Azeez,Femi Azeez,5.5,0.0,i,Brighton & Hove Albion,MID,Midfielder,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+23,Fábio Vieira,Fábio Ferreira Vieira,5.5,0.0,u,Arsenal,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+25,Gyökeres,Viktor Gyökeres,7.1,3.1,a,Arsenal,FWD,Forward,5,2.0,29.0,2.0,0.0,0.0,0.0,0.0,0.28
+29,M.Bizot,Marco Bizot,4.5,0.1,i,Aston Villa,GKP,Goalkeeper,5,1.0,90.0,1.0,0.0,0.0,0.0,0.0,0.22
+56,Abraham,Tammy Abraham,5.5,0.2,a,Aston Villa,FWD,Forward,5,4.0,71.0,4.0,0.0,0.0,0.0,0.0,0.73
+73,Adams,Tyler Adams,5.0,0.3,a,AFC Bournemouth,MID,Midfielder,5,5.0,279.0,12.0,0.0,0.0,0.0,0.0,2.4
+86,Lewis-Potter,Keane Lewis-Potter,5.5,1.7,a,Brentford,MID,Midfielder,5,5.0,406.0,22.0,1.0,1.0,2.0,3.0,4.0
+111,Steele,Jason Steele,4.0,4.2,a,Brighton & Hove Albion,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+113,F.Kadıoğlu,Ferdi Kadıoğlu,4.4,1.6,a,Brighton & Hove Albion,DEF,Defender,5,4.0,332.0,13.0,0.0,0.0,2.0,0.0,2.95
+121,Mitoma,Mitoma Kaoru,5.9,0.0,i,Brighton & Hove Albion,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+154,Palmer,Cole Palmer,9.7,26.5,d,Chelsea,MID,Midfielder,5,5.0,442.0,28.0,2.0,2.0,0.0,3.0,2.89
+206,Chadi Riad,Chadi Riad Dnanou,4.3,0.0,i,Crystal Palace,DEF,Defender,5,1.0,72.0,1.0,0.0,0.0,0.0,0.0,0.23
+232,O'Brien,Jake O'Brien,4.8,0.3,a,Everton,DEF,Defender,5,2.0,16.0,2.0,0.0,0.0,0.0,0.0,0.42
+311,Burns,Wes Burns,5.0,0.0,u,Ipswich Town,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+382,Danns,Jayden Danns,4.5,0.2,a,Liverpool,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+402,Rodrigo,Rodrigo 'Rodri' Hernandez Cascante,6.5,0.0,u,Manchester City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+523,Moore,Mikey Moore,5.0,0.1,u,Tottenham Hotspur,MID,Midfielder,5,2.0,89.0,3.0,0.0,0.0,0.0,0.0,0.6
+529,Roefs,Robin Roefs,4.9,2.5,a,Sunderland,GKP,Goalkeeper,5,5.0,450.0,11.0,0.0,0.0,1.0,0.0,2.24
+606,Rowe,Triston Rowe,4.0,0.2,a,Aston Villa,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+618,Goretzka,Leon Goretzka,5.9,0.0,i,Aston Villa,MID,Midfielder,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+304,O'Shea,Dara O'Shea,4.0,2.7,a,Ipswich Town,DEF,Defender,5,5.0,450.0,10.0,0.0,0.0,0.0,0.0,2.5
+421,Heaven,Ayden Heaven,4.4,0.3,a,Manchester United,DEF,Defender,5,1.0,90.0,1.0,0.0,0.0,0.0,0.0,0.23
+542,E.Le Fée,Enzo Le Fée,5.7,3.4,a,Sunderland,MID,Midfielder,5,5.0,438.0,18.0,1.0,1.0,1.0,1.0,3.16
+164,Quenda,Geovany Quenda,5.3,0.0,a,Chelsea,MID,Midfielder,5,2.0,27.0,2.0,0.0,0.0,0.0,0.0,0.38
+60,Hill,James Hill,5.5,0.8,a,AFC Bournemouth,DEF,Defender,5,5.0,450.0,12.0,0.0,0.0,0.0,0.0,2.18
+549,Talbi,Chemsdine Talbi,5.3,0.1,a,Sunderland,MID,Midfielder,5,1.0,31.0,1.0,0.0,0.0,0.0,0.0,0.19
+660,Fredrick,Benjamin Fredrick,4.0,0.0,a,Brentford,DEF,Defender,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+664,Salia,Vakhtang Salia,4.5,0.1,a,Newcastle United,FWD,Forward,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+667,Wright,James Wright,4.0,0.1,a,Aston Villa,GKP,Goalkeeper,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+662,Nicoll-Jazuli,Mahdi Nicoll-Jazuli,4.5,0.0,a,Chelsea,MID,Midfielder,1,1.0,3.0,1.0,0.0,0.0,0.0,0.0,0.22
+4,Gabriel,Gabriel dos Santos Magalhães,8.0,22.8,a,Arsenal,DEF,Defender,5,5.0,450.0,25.0,0.0,0.0,3.0,2.0,3.13
+11,Mosquera,Cristhian Mosquera,5.3,1.7,a,Arsenal,DEF,Defender,5,2.0,168.0,12.0,0.0,0.0,2.0,0.0,2.26
+18,Martinelli,Gabriel Martinelli Silva,6.3,0.1,u,Arsenal,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+21,Nørgaard,Christian Nørgaard,4.9,0.0,i,Everton,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+32,Cash,Matty Cash,4.4,4.9,a,Aston Villa,DEF,Defender,5,4.0,296.0,6.0,0.0,0.0,1.0,0.0,1.36
+34,Pau,Pau Torres,4.5,0.3,i,Aston Villa,DEF,Defender,5,3.0,187.0,3.0,0.0,0.0,0.0,0.0,0.67
+37,Lindelöf,Victor Lindelöf,4.5,0.3,a,Aston Villa,DEF,Defender,5,5.0,450.0,8.0,0.0,0.0,1.0,0.0,1.78
+45,McGinn,John McGinn,5.4,2.2,a,Aston Villa,MID,Midfielder,5,5.0,434.0,17.0,0.0,2.0,2.0,1.0,3.15
+52,Alysson,Alysson Edward Franco da Rocha dos Santos,5.0,0.0,d,Aston Villa,MID,Midfielder,5,4.0,87.0,8.0,1.0,0.0,0.0,0.0,1.6
+54,Gomes,Joao Gomes,5.5,0.0,a,Aston Villa,MID,Midfielder,5,2.0,129.0,2.0,0.0,0.0,0.0,0.0,0.36
+61,Truffert,Adrien Truffert,5.5,3.0,a,AFC Bournemouth,DEF,Defender,5,5.0,450.0,10.0,0.0,0.0,0.0,2.0,1.82
+63,Milosavljević,Veljko Milosavljevic,4.9,0.0,i,AFC Bournemouth,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+65,J.Araujo,Julián Araujo Zúñiga,4.4,0.0,i,AFC Bournemouth,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+78,Kroupi.Jr,Junior Kroupi,7.4,0.2,i,AFC Bournemouth,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+90,Hickey,Aaron Hickey,4.5,0.1,a,Brentford,DEF,Defender,5,5.0,152.0,5.0,0.0,0.0,0.0,0.0,1.11
+105,Anthony,Jaidon Anthony,5.9,0.1,a,Brentford,MID,Midfielder,5,5.0,267.0,15.0,1.0,0.0,2.0,2.0,2.54
+106,Thiago,Igor Thiago Nascimento Rodrigues,7.8,9.0,a,Brentford,FWD,Forward,5,5.0,442.0,10.0,1.0,0.0,2.0,0.0,1.28
+107,Furo,Kaye Furo,4.5,0.9,i,Brentford,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+108,Wilson,Callum Wilson,5.4,0.3,a,Brentford,FWD,Forward,5,3.0,13.0,3.0,0.0,0.0,0.0,0.0,0.56
+110,Rushworth,Carl Rushworth,4.5,0.8,a,Coventry City,GKP,Goalkeeper,5,5.0,450.0,16.0,0.0,1.0,1.0,2.0,3.56
+117,Coppola,Diego Coppola,4.5,0.0,a,Brighton & Hove Albion,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+124,Groß,Pascal Groß,5.8,26.9,a,Brighton & Hove Albion,MID,Midfielder,5,5.0,450.0,47.0,3.0,4.0,3.0,9.0,8.1
+125,Georginio,Georginio Rutter,5.3,0.5,a,Brighton & Hove Albion,FWD,Forward,5,2.0,104.0,6.0,0.0,1.0,1.0,0.0,1.13
+130,Wieffer,Mats Wieffer,4.9,0.2,i,Brighton & Hove Albion,DEF,Defender,5,2.0,156.0,7.0,0.0,0.0,1.0,1.0,1.43
+131,Baleba,Carlos Baleba,4.9,0.1,a,Manchester United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+133,Watson,Tom Watson,5.0,0.0,u,Brighton & Hove Albion,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+135,Yohanna,Zadok Yohanna,4.9,0.0,i,Brighton & Hove Albion,MID,Midfielder,5,1.0,12.0,1.0,0.0,0.0,0.0,0.0,0.2
+137,Tzimas,Stefanos Tzimas,5.4,0.0,i,Brighton & Hove Albion,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+139,Ferguson,Evan Ferguson,5.0,0.0,i,Brighton & Hove Albion,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+145,Fofana,Wesley Fofana,5.0,0.2,a,Chelsea,DEF,Defender,5,4.0,312.0,8.0,0.0,0.0,0.0,0.0,1.6
+149,Colwill,Levi Samuels Colwill,4.8,0.9,a,Chelsea,DEF,Defender,5,4.0,341.0,3.0,0.0,0.0,0.0,0.0,0.63
+153,Disasi,Axel Disasi,4.5,0.1,s,Crystal Palace,DEF,Defender,5,3.0,139.0,1.0,0.0,0.0,0.0,0.0,0.22
+157,Estêvão,Estêvão Almeida de Oliveira Gonçalves,6.3,0.7,a,Chelsea,MID,Midfielder,5,4.0,23.0,4.0,0.0,0.0,0.0,0.0,0.63
+159,Caicedo,Moisés Caicedo Corozo,5.3,1.1,d,Chelsea,MID,Midfielder,5,1.0,13.0,1.0,0.0,0.0,0.0,0.0,0.19
+161,Lavia,Roméo Lavia,5.0,0.2,a,Chelsea,MID,Midfielder,5,4.0,258.0,11.0,1.0,0.0,0.0,0.0,2.2
+165,João Pedro,João Pedro Junqueira de Jesus,7.8,66.3,d,Chelsea,FWD,Forward,5,4.0,360.0,33.0,3.0,3.0,0.0,7.0,4.23
+172,Wilson,Ben Wilson,4.4,0.4,a,Coventry City,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+173,Thomas,Bobby Thomas,4.0,8.6,a,Coventry City,DEF,Defender,5,5.0,437.0,24.0,0.0,0.0,2.0,3.0,6.0
+179,Latibeaudiere,Joel Latibeaudiere,4.0,0.0,a,Coventry City,DEF,Defender,5,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25
+184,Grimes,Matt Grimes,4.9,0.1,a,Coventry City,MID,Midfielder,5,5.0,443.0,11.0,0.0,0.0,1.0,0.0,2.24
+188,Torp,Victor Torp,5.3,0.1,a,Coventry City,MID,Midfielder,5,3.0,53.0,3.0,0.0,0.0,0.0,0.0,0.57
+191,Borges Rodrigues,Raphael Borges Rodrigues,4.5,0.1,u,Coventry City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+207,Mingueza,Oscar Mingueza,4.4,0.1,a,Crystal Palace,DEF,Defender,5,2.0,16.0,2.0,0.0,0.0,0.0,0.0,0.45
+218,Doucouré,Cheick Doucouré,4.9,0.0,a,Crystal Palace,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+223,Mateta,Jean-Philippe Mateta,6.3,1.3,i,Crystal Palace,FWD,Forward,5,1.0,62.0,2.0,0.0,0.0,0.0,0.0,0.32
+226,Pickford,Jordan Pickford,5.5,9.1,a,Everton,GKP,Goalkeeper,5,5.0,450.0,25.0,0.0,0.0,3.0,1.0,4.55
+235,Aznou,Adam Aznou,4.0,0.1,u,Everton,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+236,Dewsbury-Hall,Kiernan Dewsbury-Hall,6.6,6.1,a,Everton,MID,Midfielder,5,5.0,450.0,20.0,1.0,0.0,3.0,3.0,3.03
+243,Alcaraz,Carlos Alcaraz Durán,4.9,0.1,a,Everton,MID,Midfielder,5,2.0,5.0,1.0,0.0,0.0,0.0,0.0,0.2
+247,Hackney,Hayden Hackney,5.4,0.2,a,Everton,MID,Midfielder,5,5.0,137.0,10.0,0.0,1.0,1.0,0.0,1.85
+257,Bassey,Calvin Bassey,4.5,0.7,a,Fulham,DEF,Defender,5,5.0,450.0,15.0,0.0,1.0,1.0,1.0,3.33
+262,Smith Rowe,Emile Smith Rowe,5.4,0.2,a,Fulham,MID,Midfielder,5,3.0,38.0,3.0,0.0,0.0,0.0,0.0,0.56
+268,King,Josh King,5.5,2.3,a,Fulham,MID,Midfielder,5,5.0,425.0,24.0,2.0,0.0,2.0,3.0,4.36
+272,Kusi-Asare,Jonah Kusi-Asare,4.5,5.5,a,Fulham,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+274,Butland,Jack Butland,4.5,0.1,i,Hull City,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+276,Lo-Tutala,Thimothée Lo-Tutala,4.0,0.0,u,Hull City,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+278,Hughes,Charlie Hughes,3.9,0.2,i,Hull City,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+279,Ajayi,Semi Ajayi,4.2,14.1,a,Hull City,DEF,Defender,5,5.0,423.0,27.0,1.0,0.0,3.0,2.0,6.43
+283,Jacob,Matty Jacob,4.0,0.0,u,Hull City,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+287,Millar,Liam Millar,5.0,0.0,u,Hull City,MID,Midfielder,5,2.0,50.0,6.0,1.0,0.0,0.0,0.0,1.2
+288,Dowell,Kieran Dowell,4.5,0.3,a,Hull City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+291,Matazo,Eliot Matazo,4.5,0.0,i,Hull City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+293,Kamara,Abu Kamara,5.0,0.0,u,Hull City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+295,McBurnie,Oli McBurnie,5.5,1.9,a,Hull City,FWD,Forward,5,5.0,441.0,13.0,0.0,2.0,3.0,0.0,2.36
+301,Palmer,Alex Palmer,4.0,3.9,a,Ipswich Town,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+302,Button,David Button,4.0,0.6,a,Ipswich Town,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+305,Davis,Leif Davis,4.0,6.9,a,Ipswich Town,DEF,Defender,5,5.0,450.0,25.0,2.0,2.0,0.0,1.0,6.25
+306,Greaves,Jacob Greaves,4.0,1.1,a,Ipswich Town,DEF,Defender,5,4.0,357.0,3.0,0.0,0.0,0.0,0.0,0.75
+313,Clarke,Jack Clarke,5.4,0.2,a,Ipswich Town,MID,Midfielder,5,4.0,170.0,11.0,1.0,0.0,0.0,1.0,2.04
+316,Emersonn,Emersonn Correia da Silva,5.5,3.4,a,Ipswich Town,FWD,Forward,5,5.0,317.0,26.0,2.0,1.0,0.0,6.0,4.73
+318,Philogene,Jaden Philogene,5.4,0.1,a,Ipswich Town,MID,Midfielder,5,2.0,52.0,2.0,0.0,0.0,0.0,0.0,0.37
+325,Darlow,Karl Darlow,4.5,0.0,d,Manchester United,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+329,Rodon,Joe Rodon,4.3,0.8,i,Leeds United,DEF,Defender,5,2.0,123.0,7.0,0.0,0.0,1.0,0.0,1.63
+331,Gudmundsson,Gabriel Gudmundsson,4.5,0.1,a,Leeds United,DEF,Defender,5,3.0,252.0,14.0,0.0,0.0,2.0,0.0,3.11
+343,James,Daniel James,4.9,0.1,a,Leeds United,MID,Midfielder,5,3.0,52.0,3.0,0.0,0.0,0.0,0.0,0.61
+351,Mamardashvili,Giorgi Mamardashvili,4.9,0.1,a,Liverpool,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+352,Woodman,Freddie Woodman,4.0,1.0,a,Liverpool,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+355,Davies,Harvey Davies,4.0,0.2,a,Liverpool,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+371,Gravenberch,Ryan Gravenberch,5.8,1.1,a,Liverpool,MID,Midfielder,5,5.0,190.0,9.0,0.0,1.0,0.0,0.0,1.55
+384,Donnarumma,Gianluigi Donnarumma,5.5,7.7,a,Manchester City,GKP,Goalkeeper,5,5.0,450.0,19.0,0.0,0.0,2.0,0.0,3.45
+388,Guéhi,Marc Guéhi,6.0,18.4,a,Manchester City,DEF,Defender,5,5.0,450.0,30.0,1.0,1.0,2.0,4.0,5.0
+389,Matheus N.,Matheus Nunes,5.9,1.0,a,Manchester City,DEF,Defender,5,3.0,213.0,11.0,0.0,0.0,1.0,1.0,1.86
+390,Rúben,Rúben dos Santos Gato Alves Dias,5.5,1.9,a,Manchester City,DEF,Defender,5,5.0,450.0,17.0,0.0,0.0,2.0,0.0,3.09
+397,Semenyo,Antoine Semenyo,8.4,15.2,a,Manchester City,MID,Midfielder,5,5.0,450.0,33.0,2.0,3.0,2.0,2.0,3.93
+400,Doku,Jérémy Doku,7.4,0.7,a,Manchester City,MID,Midfielder,5,1.0,15.0,1.0,0.0,0.0,0.0,0.0,0.14
+401,Marmoush,Omar Marmoush,7.0,2.1,a,Tottenham Hotspur,FWD,Forward,5,4.0,339.0,8.0,0.0,0.0,2.0,0.0,1.14
+403,Sávio,Sávio Moreira de Oliveira,6.5,0.7,a,Tottenham Hotspur,MID,Midfielder,5,3.0,240.0,8.0,0.0,0.0,2.0,0.0,1.23
+408,Phillips,Kalvin Phillips,5.0,0.0,u,Manchester City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+412,Lammens,Senne Lammens,4.9,10.1,a,Manchester United,GKP,Goalkeeper,5,5.0,450.0,11.0,0.0,0.0,0.0,0.0,2.24
+416,De Ligt,Matthijs de Ligt,5.0,0.0,i,Manchester United,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+417,Dalot,Diogo Dalot Teixeira,4.9,1.6,a,Manchester United,DEF,Defender,5,5.0,346.0,8.0,0.0,0.0,0.0,0.0,1.63
+419,Martinez,Lisandro Martínez,5.0,1.3,a,Manchester United,DEF,Defender,5,4.0,360.0,6.0,0.0,0.0,0.0,0.0,1.2
+445,Thiaw,Malick Thiaw,5.0,2.2,a,Newcastle United,DEF,Defender,5,5.0,450.0,14.0,0.0,0.0,1.0,0.0,2.8
+449,Hall,Lewis Hall,5.2,16.4,a,Newcastle United,DEF,Defender,5,5.0,449.0,31.0,1.0,1.0,1.0,6.0,5.96
+452,Bruno G.,Bruno Guimarães Rodriguez Moura,6.7,1.8,a,Arsenal,MID,Midfielder,5,3.0,123.0,9.0,1.0,0.0,0.0,1.0,1.34
+454,Elanga,Anthony Elanga,6.1,4.9,i,Newcastle United,MID,Midfielder,5,3.0,232.0,18.0,2.0,0.0,1.0,2.0,2.95
+456,J.Ramsey,Jacob Ramsey,4.9,0.3,i,Newcastle United,MID,Midfielder,5,3.0,69.0,7.0,1.0,0.0,0.0,0.0,1.43
+459,L.Miley,Lewis Miley,5.5,0.1,a,Newcastle United,MID,Midfielder,5,5.0,396.0,12.0,0.0,0.0,1.0,0.0,2.18
+462,Steur,Sean Steur,4.9,0.1,a,Newcastle United,MID,Midfielder,5,5.0,223.0,8.0,0.0,0.0,1.0,0.0,1.63
+464,Wissa,Yoane Wissa,6.2,18.8,a,Newcastle United,FWD,Forward,5,5.0,441.0,15.0,1.0,1.0,1.0,2.0,2.42
+466,Neave,Sean Neave,4.5,0.5,u,Newcastle United,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+468,John,John Victor Maciel Furtado,4.5,0.1,a,Nottingham Forest,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+472,Murillo,Murillo Costa dos Santos,5.5,2.1,a,Nottingham Forest,DEF,Defender,5,5.0,449.0,23.0,0.0,1.0,1.0,0.0,4.18
+480,Gibbs-White,Morgan Gibbs-White,8.0,15.7,a,Nottingham Forest,MID,Midfielder,5,5.0,450.0,28.0,1.0,2.0,1.0,6.0,3.5
+486,McAtee,James McAtee,5.5,0.1,a,Nottingham Forest,MID,Midfielder,5,5.0,416.0,12.0,0.0,0.0,2.0,0.0,2.18
+491,Igor Jesus,Igor Jesus Maciel da Cruz,5.8,2.7,a,Nottingham Forest,FWD,Forward,5,5.0,257.0,12.0,1.0,0.0,0.0,2.0,2.07
+499,Pedro Porro,Pedro Porro Sauceda,5.4,7.9,d,Tottenham Hotspur,DEF,Defender,5,3.0,198.0,9.0,0.0,0.0,1.0,1.0,1.67
+500,Romero,Cristian Romero,5.0,0.1,u,Tottenham Hotspur,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+505,Spence,Djed Spence,4.5,0.2,u,Tottenham Hotspur,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+515,Maddison,James Maddison,6.3,0.4,a,Tottenham Hotspur,MID,Midfielder,5,3.0,59.0,3.0,0.0,0.0,0.0,0.0,0.48
+518,P.M.Sarr,Pape Matar Sarr,4.9,0.1,u,Tottenham Hotspur,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+526,Solanke,Dominic Solanke-Mitchell,5.8,0.8,a,Tottenham Hotspur,FWD,Forward,5,5.0,170.0,7.0,0.0,0.0,1.0,0.0,1.21
+527,Richarlison,Richarlison de Andrade,5.9,0.7,u,Tottenham Hotspur,FWD,Forward,5,1.0,67.0,2.0,0.0,0.0,0.0,0.0,0.34
+531,Ellborg,Melker Ellborg,4.5,0.1,a,Sunderland,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+533,Mukiele,Nordi Mukiele,5.4,1.9,a,Sunderland,DEF,Defender,5,4.0,360.0,13.0,0.0,0.0,1.0,1.0,2.41
+537,Seelt,Jenson Seelt,4.5,0.0,u,Sunderland,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+539,O'Nien,Luke O'Nien,3.9,2.5,a,Sunderland,DEF,Defender,5,1.0,66.0,1.0,0.0,0.0,0.0,0.0,0.26
+544,Xhaka,Granit Xhaka,5.5,3.7,a,Sunderland,MID,Midfielder,5,5.0,450.0,21.0,0.0,1.0,1.0,5.0,3.82
+547,Mundle,Romaine Mundle,4.9,0.0,i,Sunderland,MID,Midfielder,5,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2
+551,N.Angulo,Nilson Angulo,5.0,0.1,a,Sunderland,MID,Midfielder,5,5.0,313.0,16.0,1.0,1.0,1.0,0.0,3.2
+552,Brobbey,Brian Brobbey,5.7,6.6,a,Sunderland,FWD,Forward,5,5.0,399.0,24.0,3.0,0.0,1.0,3.0,4.21
+555,Matthews,Remi Matthews,4.0,1.7,a,Crystal Palace,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+562,Maeda,Daizen Maeda,5.3,0.2,a,Ipswich Town,MID,Midfielder,5,5.0,259.0,8.0,0.0,0.0,0.0,0.0,1.51
+563,Morita,Hidemasa Morita,5.0,0.0,i,Hull City,MID,Midfielder,5,1.0,45.0,1.0,0.0,0.0,0.0,0.0,0.2
+564,Scherpen,Kjell Scherpen,4.5,0.6,a,Ipswich Town,GKP,Goalkeeper,5,4.0,360.0,7.0,0.0,0.0,0.0,0.0,1.56
+566,Silva,António João Pereira de Albuquerque Tavares da Silva,5.0,0.4,a,AFC Bournemouth,DEF,Defender,5,5.0,450.0,13.0,0.0,0.0,0.0,0.0,2.6
+568,Barco,Valentín Barco,5.4,0.1,a,Chelsea,MID,Midfielder,5,3.0,115.0,3.0,0.0,0.0,0.0,0.0,0.56
+585,Herrington,Lucas Herrington,4.0,0.6,a,Hull City,DEF,Defender,5,5.0,197.0,5.0,0.0,0.0,0.0,0.0,1.25
+589,Gourna-Douath,Lucas Gourna-Douath,5.0,0.0,a,Hull City,MID,Midfielder,5,3.0,138.0,4.0,0.0,0.0,1.0,0.0,0.8
+597,Suzuki,Zion Suzuki,5.0,1.9,a,Aston Villa,GKP,Goalkeeper,5,4.0,360.0,16.0,0.0,0.0,1.0,3.0,3.2
+600,Osman,Ibrahim Osman,5.0,0.0,a,Brighton & Hove Albion,MID,Midfielder,5,3.0,40.0,3.0,0.0,0.0,0.0,0.0,0.6
+604,Cresswell,Alfie Cresswell,4.5,0.1,a,Leeds United,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+607,Lynch,Luka Lynch,4.5,0.1,u,Aston Villa,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+614,Hadjam,Jaouen Hadjam,4.5,0.0,a,Brighton & Hove Albion,DEF,Defender,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+621,McAidoo,Ryan McAidoo,4.5,0.1,a,Manchester City,MID,Midfielder,4,2.0,11.0,2.0,0.0,0.0,0.0,0.0,0.44
+641,Bard,Melvin Bard,4.5,0.0,a,Leeds United,DEF,Defender,3,1.0,18.0,1.0,0.0,0.0,0.0,0.0,0.22
+646,Fofana,Malick Fofana,5.5,0.0,a,Sunderland,MID,Midfielder,3,3.0,60.0,3.0,0.0,0.0,0.0,0.0,0.55
+654,Graham,Braiden Graham,4.5,0.1,a,Everton,MID,Midfielder,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+10,White,Benjamin White,5.5,5.2,d,Arsenal,DEF,Defender,5,4.0,315.0,21.0,0.0,1.0,2.0,3.0,3.82
+19,Zubimendi,Martín Zubimendi Ibáñez,5.3,0.6,a,Arsenal,MID,Midfielder,5,5.0,89.0,5.0,0.0,0.0,0.0,0.0,0.94
+38,A.García,Andrés García,4.0,1.5,a,Aston Villa,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+41,Buendía,Emiliano Buendía Stati,5.9,0.9,a,Aston Villa,MID,Midfielder,5,5.0,401.0,21.0,1.0,0.0,1.0,3.0,3.56
+93,Schuster,Jannik Schuster,4.5,0.2,a,Brentford,DEF,Defender,5,3.0,253.0,21.0,0.0,1.0,1.0,3.0,4.67
+119,Costinha,João Pedro Loureiro da Costa,4.5,0.0,a,Brighton & Hove Albion,DEF,Defender,5,5.0,68.0,4.0,0.0,0.0,0.0,0.0,0.89
+126,O'Riley,Matt O'Riley,5.4,0.1,a,Brighton & Hove Albion,MID,Midfielder,5,2.0,10.0,2.0,0.0,0.0,0.0,0.0,0.37
+142,James,Reece James,5.4,6.0,d,Chelsea,DEF,Defender,5,4.0,292.0,3.0,0.0,0.0,0.0,0.0,0.56
+176,Dasilva,Jay Dasilva,4.0,0.7,a,Coventry City,DEF,Defender,5,5.0,444.0,20.0,1.0,0.0,1.0,3.0,5.0
+222,Strand Larsen,Jørgen Strand Larsen,6.0,0.6,a,Crystal Palace,FWD,Forward,5,5.0,298.0,14.0,1.0,0.0,1.0,2.0,2.33
+308,Furlong,Darnell Furlong,3.9,0.6,a,Ipswich Town,DEF,Defender,5,1.0,17.0,1.0,0.0,0.0,0.0,0.0,0.26
+376,Bajcetic,Stefan Bajčetić Maquieira,5.0,0.0,u,Liverpool,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+405,N.Gonzalez,Nico González Iglesias,5.5,0.2,a,Newcastle United,MID,Midfielder,5,3.0,164.0,5.0,0.0,0.0,1.0,0.0,0.91
+414,Heaton,Tom Heaton,4.0,0.1,i,Manchester United,GKP,Goalkeeper,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+435,Lacey,Shea Lacey,4.9,0.1,a,Manchester United,MID,Midfielder,5,1.0,10.0,1.0,0.0,0.0,0.0,0.0,0.2
+439,Šeško,Benjamin Sesko,7.0,1.7,d,Manchester United,FWD,Forward,5,4.0,76.0,8.0,1.0,0.0,0.0,0.0,1.14
+463,Woltemade,Nick Woltemade,5.9,0.5,u,Newcastle United,FWD,Forward,5,1.0,19.0,4.0,0.0,1.0,0.0,0.0,0.68
+510,Rowswell,James Rowswell,4.0,0.1,a,Tottenham Hotspur,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+511,Souza,João Victor de Souza Menezes,4.0,0.2,u,Tottenham Hotspur,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+571,Florentino,Florentino Ibrain Morris Luís,4.8,0.1,a,Ipswich Town,MID,Midfielder,5,2.0,30.0,2.0,0.0,0.0,0.0,0.0,0.42
+591,Enciso,Julio Enciso,5.5,0.8,a,Ipswich Town,MID,Midfielder,5,5.0,413.0,15.0,0.0,2.0,0.0,0.0,2.73
+595,Gozo,Zavier Gozo,5.0,0.0,a,Crystal Palace,MID,Midfielder,5,2.0,28.0,2.0,0.0,0.0,0.0,0.0,0.4
+608,Jebbison,Daniel Jebbison,5.0,0.1,a,AFC Bournemouth,FWD,Forward,5,3.0,31.0,3.0,0.0,0.0,0.0,0.0,0.6
+613,Ahoka,Jules Ahoka,4.5,0.2,a,Sunderland,MID,Midfielder,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+642,Thomas,Sorba Thomas,5.5,0.0,a,Hull City,MID,Midfielder,3,3.0,119.0,4.0,0.0,0.0,0.0,0.0,0.73
+294,Zambrano,Óscar Zambrano,4.5,0.1,a,Hull City,MID,Midfielder,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+363,Leoni,Giovanni Leoni,4.0,0.0,i,Liverpool,DEF,Defender,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+322,Al-Hamadi,Ali Al-Hamadi,5.0,0.1,u,Ipswich Town,FWD,Forward,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+40,Rogers,Morgan Rogers,7.7,40.3,a,Chelsea,MID,Midfielder,5,5.0,437.0,29.0,3.0,1.0,0.0,2.0,3.77
+661,Balcombe,Ellery Balcombe,4.0,0.0,a,Brentford,GKP,Goalkeeper,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+658,Ibrahim,Younes Ibrahim,4.5,0.0,a,Brighton & Hove Albion,MID,Midfielder,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+663,Pivas,Miodrag Pivas,4.0,0.0,a,Newcastle United,DEF,Defender,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

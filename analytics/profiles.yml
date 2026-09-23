@@ -1,0 +1,7 @@
+pl_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: data/processed/epl.duckdb
+      threads: 4

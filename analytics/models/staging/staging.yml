@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_matches
+    columns:
+      - name: match_id
+        tests: [unique, not_null]
+
+  - name: stg_players
+    columns:
+      - name: fpl_element_id
+        tests: [unique, not_null]
+
+  - name: stg_positions
+    columns:
+      - name: position_id
+        tests: [unique, not_null]
+
+  - name: stg_gameweeks
+    columns:
+      - name: gameweek_id
+        tests: [unique, not_null]
+
+  - name: stg_fixtures
+    columns:
+      - name: fpl_fixture_id
+        tests: [not_null]
+
+  - name: stg_player_fixture
+    columns:
+      - name: player_fixture_id
+        tests: [unique, not_null]

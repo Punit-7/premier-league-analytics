@@ -1,0 +1,93 @@
+version: 2
+
+models:
+  - name: dim_team
+    columns:
+      - name: team_id
+        tests: [unique, not_null]
+      - name: team_name
+        tests: [unique, not_null]
+
+  - name: dim_season
+    columns:
+      - name: season_id
+        tests: [unique, not_null]
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['completed', 'in_progress']
+
+  - name: dim_player
+    columns:
+      - name: player_id
+        tests: [unique, not_null]
+      - name: fpl_element_id
+        tests: [unique, not_null]
+
+  - name: fact_match
+    description: One row per completed fixture.
+    columns:
+      - name: match_id
+        tests: [unique, not_null]
+      - name: ft_result
+        tests:
+          - accepted_values:
+              values: ['H', 'D', 'A']
+      - name: home_team_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_team')
+              field: team_id
+      - name: away_team_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_team')
+              field: team_id
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [season_id, date_id, home_team_id, away_team_id]
+
+  - name: fact_player_fixture
+    description: One row per player per fixture. Double gameweeks give two rows.
+    columns:
+      - name: player_fixture_id
+        tests: [unique, not_null]
+      - name: player_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_player')
+              field: player_id
+      - name: gameweek_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_gameweek')
+              field: gameweek_id
+      - name: minutes
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 120
+              inclusive: true
+      - name: price_m
+        description: Price in millions. Guards the tenths-conversion bug.
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 3.0
+              max_value: 20.0
+
+  - name: fact_team_fixture
+    columns:
+      - name: team_fixture_id
+        tests: [unique, not_null]
+      - name: difficulty
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 1
+              max_value: 5
+              inclusive: true

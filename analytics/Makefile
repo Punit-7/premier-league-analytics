@@ -12,6 +12,7 @@ clean-data:
 
 build:
 	python -m src.load
+	dbt build                   # models + tests, in dependency order
 
 export:
 	python -m src.bi_export
@@ -32,4 +33,5 @@ refresh:
 	python -m src.clean_players
 	python -m src.quality
 	python -m src.load
+	dbt build                   # is the model correct?
 	python -m src.bi_export

@@ -1,42 +1,61 @@
-"""Create the database from schema.sql and load the star schema."""
-import sqlite3
+"""Land the raw datasets into DuckDB. dbt reads these as sources and models
+the star schema on top; nothing here does any transformation.
+"""
+from datetime import datetime, timezone
 
-from src.config import CONFIG, ROOT
-from src.model import build_all
+import duckdb
+import pandas as pd
+
+from src.config import CONFIG
 from src.logging_setup import get_logger, stage
 
 log = get_logger(__name__)
 
-SCHEMA = ROOT / "sql" / "schema.sql"
+INTERIM = CONFIG["paths"]["interim"]
+DB = CONFIG["paths"]["database"]
 
-LOAD_ORDER = ["dim_team", "dim_season", "dim_date", "dim_referee",
-              "dim_position", "dim_gameweek", "dim_player",
-              "fact_match", "fact_player_fixture", "fact_team_fixture"]
+# raw table name -> interim parquet file it is landed from
+RAW_TABLES = {
+    "raw_matches": "matches_clean",
+    "raw_players": "fpl_players",
+    "raw_positions": "fpl_positions",
+    "raw_gameweeks": "fpl_gameweeks",
+    "raw_fixtures": "fpl_team_fixtures",
+    "raw_player_fixture": "fpl_history",
+}
+
+
+def build_refresh_row(matches: pd.DataFrame, history: pd.DataFrame) -> pd.DataFrame:
+    live = matches[matches["is_current_season"]]
+    return pd.DataFrame([{
+        "refreshed_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "total_matches": len(matches),
+        "live_matches": len(live),
+        "player_fixture_rows": len(history),
+        "latest_gameweek": int(history["gameweek_id"].max()) if not history.empty else None,
+        "latest_match_date": (live["match_date"].max().strftime("%Y-%m-%d")
+                              if not live.empty else None),
+    }])
+
 
 def main() -> None:
     with stage(log, "load"):
-        tables = build_all()
-        with sqlite3.connect(CONFIG["paths"]["database"]) as conn:
-            conn.executescript(SCHEMA.read_text())
-            conn.execute("PRAGMA foreign_keys = ON")
-            for name in LOAD_ORDER:
-                df = tables[name].copy()
-                for col in df.select_dtypes(include=["bool", "boolean"]).columns:
-                    df[col] = df[col].astype(int)
-                for col in df.select_dtypes(include=["datetime64[ns, UTC]",
-                                                     "datetime64[ns]"]).columns:
-                    df[col] = df[col].astype(str)
-                df.to_sql(name, conn, if_exists="append", index=False)
-                log.info("loaded %-22s %7d rows", name, len(df))
-            tables["refresh_log"].to_sql("refresh_log", conn,
-                                         if_exists="append", index=False)
-            violations = conn.execute("PRAGMA foreign_key_check").fetchall()
-            if violations:
-                raise RuntimeError(f"Foreign key violations: {violations[:5]}")
-        log.info("built %s", CONFIG["paths"]["database"])
+        with duckdb.connect(str(DB)) as conn:
+            for raw_name, parquet_name in RAW_TABLES.items():
+                path = INTERIM / f"{parquet_name}.parquet"
+                conn.execute(
+                    f"CREATE OR REPLACE TABLE {raw_name} AS "
+                    f"SELECT * FROM read_parquet($path)", {"path": str(path)})
+                rows = conn.execute(f"SELECT count(*) FROM {raw_name}").fetchone()[0]
+                log.info("landed %-22s %7d rows", raw_name, rows)
+
+            matches = pd.read_parquet(INTERIM / "matches_clean.parquet")
+            history = pd.read_parquet(INTERIM / "fpl_history.parquet")
+            refresh_log = build_refresh_row(matches, history)
+            conn.execute("CREATE OR REPLACE TABLE refresh_log AS SELECT * FROM refresh_log")
+            log.info("landed %-22s %7d rows", "refresh_log", len(refresh_log))
+        log.info("built %s", DB)
 
 
 if __name__ == "__main__":
     main()
-            
-    
