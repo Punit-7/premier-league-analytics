@@ -43,8 +43,7 @@ STUBS = {
     "analytics/src/team_names.py":     ("Canonical club names for both sources.", False),
     "analytics/src/clean_matches.py":  ("Raw match CSVs to one validated dataset.", True),
     "analytics/src/clean_players.py":  ("FPL JSON to tidy player tables.", True),
-    "analytics/src/model.py":          ("Build star-schema dimensions and facts.", False),
-    "analytics/src/load.py":           ("Create the database and load every table.", True),
+    "analytics/src/load.py":           ("Land the cleaned datasets into DuckDB as raw_* tables.", True),
     "analytics/src/quality.py":        ("Data contracts. Fails loudly on bad input.", True),
     "analytics/src/bi_export.py":      ("Export the star schema as CSV for Power BI and Excel.", True),
     "analytics/app/style.py":          ("Design tokens and injected CSS for the app.", False),
@@ -70,7 +69,7 @@ analytics/logs/*.log
 analytics/logs/runs.jsonl
 
 # Published on purpose by the refresh job
-!analytics/data/processed/epl.db
+!analytics/data/processed/epl.duckdb
 !analytics/data/powerbi/
 """
 

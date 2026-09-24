@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 import duckdb
 import pandas as pd
 
+from src import run_log
 from src.config import CONFIG
 from src.logging_setup import get_logger, stage
 
@@ -57,6 +58,29 @@ def main() -> None:
                          "SELECT * FROM refresh_row LIMIT 0")
             conn.execute("INSERT INTO refresh_log SELECT * FROM refresh_row")
             log.info("landed %-22s %7d rows", "refresh_log", len(refresh_row))
+
+            # Stage history from logs/runs.jsonl. Accumulates like refresh_log;
+            # delete-then-insert per run_id so a re-load never duplicates a run.
+            # This load's own record lands on the next load, since it is
+            # written when this stage finishes.
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS pipeline_run (
+                    run_id      VARCHAR NOT NULL,
+                    stage       VARCHAR NOT NULL,
+                    status      VARCHAR NOT NULL,
+                    finished_at VARCHAR NOT NULL,
+                    duration_s  DOUBLE  NOT NULL,
+                    rows        BIGINT,
+                    message     VARCHAR
+                )""")
+            entries = pd.DataFrame(run_log.read_all(), columns=[
+                "run_id", "stage", "status", "finished_at",
+                "duration_s", "rows", "message"])
+            if not entries.empty:
+                conn.execute("DELETE FROM pipeline_run WHERE run_id IN "
+                             "(SELECT DISTINCT run_id FROM entries)")
+                conn.execute("INSERT INTO pipeline_run SELECT * FROM entries")
+            log.info("landed %-22s %7d rows", "pipeline_run", len(entries))
         log.info("built %s", DB)
 
 

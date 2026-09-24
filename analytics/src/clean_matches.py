@@ -60,7 +60,7 @@ def clean_matches(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     df["match_date"] = pd.to_datetime(df["match_date"], dayfirst=True, format= "mixed", errors="coerce")
     
     bad_date = df["match_date"].isna()
-    reject(bad_date,"unparseable data")
+    reject(bad_date, "unparseable date")
     df = df.loc[~bad_date].copy()
     
     df["home_team"] = df["home_team"].map(lambda n: canonical(n, "match"))

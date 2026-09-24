@@ -1,6 +1,6 @@
 """Append one JSON line per pipeline stage to logs/runs.jsonl.
 
-Why JSONL and not straight into SQLite: ingest runs before the database
+Why JSONL and not straight into DuckDB: ingest runs before the database
 exists, and a logger that depends on the thing it is logging about cannot
 record the failure to build it. load.py reads this file into a
 pipeline_run table at the end, so the history ends up queryable anyway.

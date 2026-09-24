@@ -65,16 +65,25 @@ def stage(log: logging.Logger, name: str):
     Without this, an exception inside a stage prints a traceback to stderr and
     leaves nothing in the log file — which is exactly the case you need
     evidence for when a scheduled run fails overnight.
+
+    Every stage also appends one line to logs/runs.jsonl via run_log, so
+    load.py can land the history as the pipeline_run table.
     """
+    # Imported here, not at the top: run_log imports this module.
+    from src import run_log
 
     started = time.perf_counter()
     log.info("START %s", name)
 
     try:
         yield
-    except Exception:
-        log.exception("FAILED %s after %.1fs", name, time.perf_counter() - started)
+    except BaseException as exc:    # SystemExit too: quality.py fails that way
+        elapsed = time.perf_counter() - started
+        log.exception("FAILED %s after %.1fs", name, elapsed)
+        run_log.record(name, "failed", elapsed, message=str(exc))
         raise
     else:
-        log.info("DONE %s after %.1fs", name, time.perf_counter() - started)
+        elapsed = time.perf_counter() - started
+        log.info("DONE %s after %.1fs", name, elapsed)
+        run_log.record(name, "ok", elapsed)
         

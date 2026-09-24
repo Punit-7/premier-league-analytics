@@ -1,0 +1,33 @@
+{
+  "name": "Premier League Analytics",
+  "dataColors": ["#1F6A4A", "#2F6F8F", "#8C6D3F", "#A6452E",
+                 "#5E8C6A", "#7FA8BE", "#C4A57B", "#6B7A73"],
+  "background": "#FFFFFF",
+  "foreground": "#16191A",
+  "tableAccent": "#1F6A4A",
+  "good": "#1F6A4A",
+  "neutral": "#8C8F8A",
+  "bad": "#A6452E",
+  "textClasses": {
+    "title":   { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#16191A" },
+    "header":  { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#5E6763" },
+    "label":   { "fontFace": "Segoe UI",          "fontSize": 10, "color": "#5E6763" },
+    "callout": { "fontFace": "Segoe UI Light",    "fontSize": 28, "color": "#16191A" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background":   [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } } }],
+        "border":       [{ "show": true, "color": { "solid": { "color": "#D6DAD2" } },
+                           "radius": 4 }],
+        "visualHeader": [{ "show": false }],
+        "title":        [{ "show": true, "alignment": "left", "fontSize": 12,
+                           "fontColor": { "solid": { "color": "#16191A" } } }]
+      }
+    },
+    "page": {
+      "*": { "background": [{ "color": { "solid": { "color": "#F4F6F2" } },
+                              "transparency": 0 }] }
+    }
+  }
+}

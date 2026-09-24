@@ -80,6 +80,14 @@ models:
           - dbt_utils.accepted_range:
               min_value: 3.0
               max_value: 20.0
+      - name: bonus
+        description: FPL awards 0 to 3 bonus points per fixture.
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 3
+              inclusive: true
 
   - name: fact_team_fixture
     columns:
