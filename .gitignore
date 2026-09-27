@@ -6,21 +6,21 @@ __pycache__/
 .env
 
 # Regenerable inputs
-analytics/data/raw/
-analytics/data/interim/
+data/raw/
+data/interim/
 
 # Logs are per-run and local; the JSONL record is loaded into the database
-analytics/logs/*.log
-analytics/logs/runs.jsonl
+logs/*.log
+logs/runs.jsonl
 
 # Published on purpose by the refresh job
-!analytics/data/processed/epl.duckdb
-!analytics/data/powerbi/
+!data/processed/epl.duckdb
+!data/powerbi/
 
 graphify*
 target/
 
 # dbt: reinstalled by `dbt deps`; local-only telemetry id
-analytics/dbt_packages/
-analytics/.user.yml
-analytics/logs/dbt.log
+dbt_packages/
+.user.yml
+logs/dbt.log

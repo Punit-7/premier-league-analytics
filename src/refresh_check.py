@@ -14,7 +14,7 @@ from pathlib import Path
 from src.config import CONFIG
 
 DB = CONFIG["paths"]["database"]
-STATE_FILE = Path(__file__).resolve().parents[2] / ".github" / "refresh_state.json"
+STATE_FILE = Path(__file__).resolve().parents[1] / ".github" / "refresh_state.json"
 
 
 def has_new_finished_gameweek() -> bool:

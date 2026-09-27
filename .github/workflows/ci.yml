@@ -3,11 +3,8 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: analytics
     env:
-      PYTHONPATH: /home/runner/work/premier-league-analytics/premier-league-analytics/analytics
+      PYTHONPATH: ${{ github.workspace }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
