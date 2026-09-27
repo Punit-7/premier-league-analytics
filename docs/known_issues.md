@@ -5,7 +5,7 @@ football-data says "Man United" / "Tottenham"; FPL says "Man Utd" / "Spurs".
 Two alias maps resolve both into canonical dimension. Unmapped names raises.
 
 ## 2. Two clubs have no Premier League history
-Coventry City and Hull City were promoted for 2026/27. Any prior-season feature is undefined for them and for their players. A genuine problem for P2,
+Coventry City and Hull City were promoted for 2026/27. Any prior-season feature is undefined for them and for their players. A genuine gap for any prior-season comparison,
 recorded here so it is not mistaken for a data error.
 
 ## 3. FPL prices are in the tenths of a million
@@ -37,10 +37,10 @@ not an error.
 ## 10. FPL data is current-season only
 The API exposes no historical seasons. Past-season player data comes from the
 community-maintained vaastav/Fantasy-Premier-League archive, which is NOT
-official. P2 uses it for training; the provenance is labelled there.
+official. This project does not use it.
 
 ## 11. Bookmaker odds columns excluded by design
-Unstable across seasons, and not match facts. P2 uses them as a benchmark.
+Unstable across seasons, and not match facts.
 
 ## 12. FPL team-id lookups all raise on a miss, by deliberate choice
 `clean_players()` originally had four different policies for an unmapped
