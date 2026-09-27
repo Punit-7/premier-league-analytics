@@ -26,7 +26,7 @@
 25,25,224117,Gyökeres,Viktor Gyökeres,2,4,7.1,3.1,a,2,29,0.5,1.0
 26,26,219847,Havertz,Kai Havertz,2,4,7.6,8.4,d,19,437,3.2,3.8
 27,27,205651,G.Jesus,Gabriel Fernando de Jesus,2,4,5.9,0.1,u,0,0,0.0,0.0
-28,28,98980,Martinez,Emiliano Martínez Romero,8,1,5.0,4.8,a,9,360,2.2,2.2
+28,28,98980,Martinez,Emiliano Martínez Romero,8,1,5.0,4.7,a,9,360,2.2,2.2
 29,29,72147,M.Bizot,Marco Bizot,3,1,4.5,0.1,i,1,90,0.0,1.0
 30,30,101188,Digne,Lucas Digne,3,2,4.5,0.0,u,0,0,0.0,0.0
 31,31,199798,Konsa,Ezri Konsa Ngoyo,2,2,4.6,19.4,a,12,281,3.0,3.0
@@ -40,7 +40,7 @@
 39,39,578545,Nedeljkovic,Kosta Nedeljkovic,3,2,4.0,0.1,u,0,0,0.0,0.0
 40,40,244850,Rogers,Morgan Rogers,8,3,7.7,40.4,a,29,437,5.2,5.8
 41,41,195546,Buendía,Emiliano Buendía Stati,3,3,5.9,1.0,a,21,401,4.8,4.2
-42,42,485337,Guessand,Evann Guessand,10,3,5.4,0.0,a,2,54,0.2,1.0
+42,42,485337,Guessand,Evann Guessand,10,3,5.4,0.0,a,2,54,0.0,1.0
 43,43,166989,Tielemans,Youri Tielemans,21,3,5.8,1.5,a,14,402,3.0,2.8
 44,44,215711,Bailey,Leon Bailey,3,3,5.4,0.1,u,0,0,0.0,0.0
 45,45,122806,McGinn,John McGinn,3,3,5.4,2.2,a,17,434,4.0,3.4
@@ -110,7 +110,7 @@
 109,109,489639,Verbruggen,Bart Verbruggen,5,1,4.5,21.6,a,23,450,4.2,4.6
 110,110,472739,Rushworth,Carl Rushworth,9,1,4.5,0.8,a,16,450,3.8,3.2
 111,111,49262,Steele,Jason Steele,5,1,4.0,4.1,a,0,0,0.0,0.0
-112,112,469142,Van Hecke,Jan Paul van Hecke,31,2,4.9,6.6,a,24,450,5.8,4.8
+112,112,469142,Van Hecke,Jan Paul van Hecke,31,2,4.9,6.5,a,24,450,5.8,4.8
 113,113,231416,F.Kadıoğlu,Ferdi Kadıoğlu,5,2,4.4,1.6,a,13,332,3.2,3.2
 114,114,204120,Boscagli,Olivier Boscagli,5,2,4.5,0.3,a,19,437,3.2,3.8
 115,115,465730,De Cuyper,Maxim De Cuyper,5,2,5.0,27.7,a,38,423,5.2,7.6
@@ -136,7 +136,7 @@
 135,135,700308,Yohanna,Zadok Yohanna,5,3,4.8,0.0,i,1,12,0.0,1.0
 136,136,50175,Welbeck,Danny Welbeck,8,4,5.9,1.0,a,4,85,1.0,1.3
 137,137,608181,Tzimas,Stefanos Tzimas,5,4,5.4,0.0,i,0,0,0.0,0.0
-138,138,647850,Kostoulas,Charalampos Kostoulas,5,4,5.6,3.9,a,28,353,6.8,5.6
+138,138,647850,Kostoulas,Charalampos Kostoulas,5,4,5.6,4.0,a,28,353,6.8,5.6
 139,139,487117,Ferguson,Evan Ferguson,5,4,5.0,0.0,i,0,0,0.0,0.0
 140,140,215059,Sánchez,Robert Lynch Sánchez,8,1,4.9,0.7,u,2,90,0.0,2.0
 141,141,508479,Jörgensen,Filip Jörgensen,8,1,5.0,0.0,u,0,0,0.0,0.0
@@ -151,7 +151,7 @@
 150,150,574458,M.Sarr,Mamadou Sarr,8,2,4.5,0.0,u,0,0,0.0,0.0
 151,151,577016,Acheampong,Josh Acheampong,8,2,4.5,0.3,a,5,221,0.5,1.2
 152,152,620109,Palestra,Marco Palestra,8,2,5.3,0.6,d,0,0,0.0,0.0
-153,153,220362,Disasi,Axel Disasi,10,2,4.5,0.1,s,1,139,0.2,0.3
+153,153,220362,Disasi,Axel Disasi,10,2,4.5,0.1,s,1,139,0.0,0.3
 154,154,244851,Palmer,Cole Palmer,8,3,9.7,25.8,d,28,442,3.8,5.6
 155,155,448047,Enzo,Enzo Fernández,20,3,6.9,3.6,a,13,271,3.0,3.2
 156,156,247632,Neto,Pedro Lomba Neto,8,3,6.5,1.4,a,14,332,3.2,2.8
@@ -196,23 +196,23 @@
 195,195,218997,Simms,Ellis Simms,9,4,4.9,0.6,a,4,104,0.5,1.3
 196,196,551262,Markelo,Jahnoah Markelo,9,4,5.0,0.0,u,0,0,0.0,0.0
 197,197,549653,Bassette,Norman Bassette,9,4,4.5,0.0,u,0,0,0.0,0.0
-198,198,172649,Henderson,Dean Henderson,10,1,5.0,1.3,i,5,270,0.8,1.7
-199,199,121709,Benitez,Walter Benítez,10,1,4.5,0.1,a,8,180,2.0,4.0
+198,198,172649,Henderson,Dean Henderson,10,1,5.0,1.3,i,5,270,0.7,1.7
+199,199,121709,Benitez,Walter Benítez,10,1,4.5,0.1,a,8,180,2.7,4.0
 200,200,437499,Lacroix,Maxence Lacroix,8,2,5.9,6.8,a,13,364,1.8,2.6
-201,201,247348,Muñoz,Daniel Muñoz Mejía,25,2,5.4,5.7,a,5,257,1.2,1.2
-202,202,427623,Richards,Chris Richards,10,2,5.0,0.6,a,14,450,2.8,2.8
-203,203,651426,Canvot,Jaydee Canvot,10,2,4.8,0.2,a,10,360,2.2,2.5
-204,204,244723,Mitchell,Tyrick Mitchell,10,2,4.5,6.0,a,24,419,5.8,4.8
+201,201,247348,Muñoz,Daniel Muñoz Mejía,25,2,5.4,5.7,a,5,257,1.7,1.2
+202,202,427623,Richards,Chris Richards,10,2,5.0,0.6,a,14,450,3.7,2.8
+203,203,651426,Canvot,Jaydee Canvot,10,2,4.8,0.2,a,10,360,3.0,2.5
+204,204,244723,Mitchell,Tyrick Mitchell,10,2,4.5,6.0,a,24,419,7.7,4.8
 205,205,218364,Sosa,Borna Sosa,10,2,4.5,0.0,u,0,0,0.0,0.0
 206,206,515621,Chadi Riad,Chadi Riad Dnanou,10,2,4.3,0.0,i,1,72,0.0,1.0
-207,207,242313,Mingueza,Oscar Mingueza,10,2,4.4,0.1,a,2,16,0.5,1.0
-208,208,232185,Sarr,Ismaïla Sarr,10,3,6.2,0.6,a,1,8,0.2,1.0
+207,207,242313,Mingueza,Oscar Mingueza,10,2,4.4,0.1,a,2,16,0.3,1.0
+208,208,232185,Sarr,Ismaïla Sarr,10,3,6.2,0.6,a,1,8,0.3,1.0
 209,209,242898,Johnson,Brennan Johnson,11,3,5.9,0.1,a,9,238,2.0,1.8
 210,210,496221,Wharton,Adam Wharton,10,3,5.4,0.7,a,12,436,2.0,2.4
-211,211,488024,Yeremy,Yéremy Pino Santos,10,3,5.5,0.3,a,14,307,3.2,2.8
-212,212,108413,Hughes,Will Hughes,10,3,4.4,7.3,a,2,29,0.5,1.0
-213,213,152551,Lerma,Jefferson Lerma Solís,10,3,4.8,0.1,a,1,51,0.2,0.5
-214,214,209400,Kamada,Daichi Kamada,10,3,5.0,0.5,a,21,441,4.5,4.2
+211,211,488024,Yeremy,Yéremy Pino Santos,10,3,5.5,0.3,a,14,307,2.7,2.8
+212,212,108413,Hughes,Will Hughes,10,3,4.4,7.3,a,2,29,0.7,1.0
+213,213,152551,Lerma,Jefferson Lerma Solís,10,3,4.8,0.1,a,1,51,0.3,0.5
+214,214,209400,Kamada,Daichi Kamada,10,3,5.0,0.5,a,21,441,5.3,4.2
 215,215,489706,Devenny,Justin Devenny,10,3,5.0,0.0,u,0,0,0.0,0.0
 216,216,606921,Esse,Romain Esse,10,3,5.0,0.0,u,0,0,0.0,0.0
 217,217,536694,M.França,Matheus França de Oliveira,10,3,4.9,0.0,u,0,0,0.0,0.0
@@ -220,9 +220,9 @@
 219,219,450542,J.Rak-Sakyi,Jesurun Rak-Sakyi,10,3,4.9,0.0,u,0,0,0.0,0.0
 220,220,590014,Cardines,Rio Cardines,10,2,4.5,0.0,u,0,0,0.0,0.0
 221,221,672492,Drakes-Thomas,Joél Drakes-Thomas,10,3,4.5,0.1,a,0,0,0.0,0.0
-222,222,247412,Strand Larsen,Jørgen Strand Larsen,10,4,6.0,0.6,a,14,298,3.2,2.8
+222,222,247412,Strand Larsen,Jørgen Strand Larsen,10,4,6.0,0.6,a,14,298,3.7,2.8
 223,223,231747,Mateta,Jean-Philippe Mateta,10,4,6.3,1.3,i,2,62,0.0,2.0
-224,224,205533,Nketiah,Eddie Nketiah,10,4,5.5,0.5,a,8,175,1.8,2.0
+224,224,205533,Nketiah,Eddie Nketiah,10,4,5.5,0.5,a,8,175,1.7,2.0
 225,225,660392,Uche,Christantus Uche,10,4,5.0,0.0,u,0,0,0.0,0.0
 226,226,111234,Pickford,Jordan Pickford,11,1,5.5,9.1,a,25,450,4.5,5.0
 227,227,229600,Travers,Mark Travers,11,1,5.0,0.0,a,0,0,0.0,0.0
@@ -236,10 +236,10 @@
 235,235,499300,Aznou,Adam Aznou,11,2,4.0,0.1,u,0,0,0.0,0.0
 236,236,215413,Dewsbury-Hall,Kiernan Dewsbury-Hall,11,3,6.6,6.0,a,20,450,2.2,4.0
 237,237,440993,Ndiaye,Iliman Ndiaye,20,3,5.8,6.7,a,22,385,3.2,4.4
-238,238,114283,Grealish,Jack Grealish,11,3,6.5,0.5,a,6,135,1.2,1.5
+238,238,114283,Grealish,Jack Grealish,11,3,6.5,0.5,a,6,135,1.7,1.5
 239,239,232928,Garner,James Garner,11,3,6.0,0.2,a,11,328,2.5,2.2
 240,240,490094,Iroegbunam,Tim Iroegbunam,14,3,5.0,0.0,a,2,70,0.5,0.7
-241,241,433154,McNeil,Dwight McNeil,10,3,5.4,0.1,a,3,84,0.2,1.5
+241,241,433154,McNeil,Dwight McNeil,10,3,5.4,0.1,a,3,84,0.0,1.5
 242,242,550615,George,Tyrique George,11,3,5.5,0.9,a,19,309,4.0,3.8
 243,243,502697,Alcaraz,Carlos Alcaraz Durán,11,3,4.9,0.1,a,1,5,0.0,0.5
 244,244,609873,Armstrong,Harrison Armstrong,11,3,5.0,0.4,a,16,446,2.0,3.2
@@ -320,7 +320,7 @@
 319,319,172453,Szmodics,Sam Szmodics,15,3,5.0,0.0,u,0,0,0.0,0.0
 320,320,147675,Akpom,Chuba Akpom,15,4,5.0,1.2,a,7,78,1.5,2.3
 321,321,557012,Walle Egeli,Sindre Walle Egeli,15,4,4.5,3.5,a,1,10,0.0,1.0
-322,322,462387,Al-Hamadi,Ali Al-Hamadi,15,4,5.0,0.1,u,0,0,0.0,0.0
+322,322,462387,Al-Hamadi,Ali Al-Hamadi,15,4,5.0,0.0,u,0,0,0.0,0.0
 323,323,461587,McAteer,Kasey McAteer,15,3,4.4,1.0,a,3,42,0.5,1.0
 324,324,232457,Mehmeti,Anis Mehmeti,15,3,4.8,0.0,a,0,0,0.0,0.0
 325,325,59735,Darlow,Karl Darlow,21,1,4.5,0.0,d,0,0,0.0,0.0
@@ -365,7 +365,7 @@
 364,364,214285,Tsimikas,Kostas Tsimikas,18,2,4.9,0.1,a,2,64,0.5,1.0
 365,365,489580,Ramsay,Calvin Ramsay,18,2,4.0,0.1,u,0,0,0.0,0.0
 366,366,494595,Wirtz,Florian Wirtz,18,3,7.3,5.7,a,18,402,4.0,3.6
-367,367,243298,Gakpo,Cody Gakpo,18,3,7.2,12.6,a,32,370,5.0,6.4
+367,367,243298,Gakpo,Cody Gakpo,18,3,7.2,12.5,a,32,370,5.0,6.4
 368,368,424876,Szoboszlai,Dominik Szoboszlai,18,3,7.0,32.9,a,20,440,3.0,4.0
 369,369,611922,Ngumoha,Rio Ngumoha,18,3,5.7,0.5,a,4,99,0.5,1.3
 370,370,223541,Chiesa,Federico Chiesa,18,3,5.3,0.0,i,0,0,0.0,0.0
@@ -382,34 +382,34 @@
 381,381,514514,Koumas,Lewis Koumas,18,3,5.0,0.0,a,3,22,0.5,1.0
 382,382,500058,Danns,Jayden Danns,18,4,4.5,0.2,a,0,0,0.0,0.0
 383,383,444884,Elliott,Harvey Elliott,18,3,5.4,0.0,u,0,0,0.0,0.0
-384,384,204936,Donnarumma,Gianluigi Donnarumma,20,1,5.5,7.6,a,19,450,4.0,3.8
+384,384,204936,Donnarumma,Gianluigi Donnarumma,20,1,5.5,7.6,a,19,450,5.3,3.8
 385,385,432720,Trafford,James Trafford,16,1,5.0,5.5,a,28,450,4.8,5.6
 386,386,122074,Bettinelli,Marcus Bettinelli,20,1,4.5,0.0,a,0,0,0.0,0.0
-387,387,472769,O'Reilly,Nico O'Reilly,20,2,6.3,10.9,a,6,163,1.0,1.5
-388,388,209036,Guéhi,Marc Guéhi,20,2,6.0,18.2,a,30,450,5.0,6.0
-389,389,465351,Matheus N.,Matheus Nunes,20,2,5.9,1.0,a,11,213,2.5,3.7
-390,390,171314,Rúben,Rúben dos Santos Gato Alves Dias,20,2,5.5,1.9,a,17,450,3.8,3.4
-391,391,477424,Gvardiol,Joško Gvardiol,20,2,5.7,26.7,a,37,434,7.0,7.4
+387,387,472769,O'Reilly,Nico O'Reilly,20,2,6.3,10.9,a,6,163,0.7,1.5
+388,388,209036,Guéhi,Marc Guéhi,20,2,6.0,18.2,a,30,450,6.0,6.0
+389,389,465351,Matheus N.,Matheus Nunes,20,2,5.9,1.0,a,11,213,3.3,3.7
+390,390,171314,Rúben,Rúben dos Santos Gato Alves Dias,20,2,5.5,1.9,a,17,450,4.3,3.4
+391,391,477424,Gvardiol,Joško Gvardiol,20,2,5.7,26.8,a,37,434,7.7,7.4
 392,392,448514,Aït-Nouri,Rayan Aït-Nouri,20,2,5.3,0.4,a,0,0,0.0,0.0
-393,393,578153,Khusanov,Abdukodir Khusanov,20,2,5.4,1.4,a,9,268,1.8,3.0
+393,393,578153,Khusanov,Abdukodir Khusanov,20,2,5.4,1.4,a,9,268,1.7,3.0
 394,394,494307,Alleyne,Max Alleyne,20,2,5.0,0.0,u,0,0,0.0,0.0
 395,395,477064,Lewis,Rico Lewis,20,2,4.4,0.2,a,1,56,0.0,1.0
-396,396,616222,Vitor Reis,Vitor de Oliveira Nunes dos Reis,20,2,4.5,0.0,a,1,1,0.2,1.0
-397,397,437730,Semenyo,Antoine Semenyo,20,3,8.4,15.4,d,33,450,7.8,6.6
-398,398,209244,Foden,Phil Foden,20,3,6.9,1.8,s,9,217,2.0,2.2
-399,399,466052,Cherki,Rayan Cherki,20,3,7.8,28.4,a,34,302,6.5,6.8
-400,400,248875,Doku,Jérémy Doku,20,3,7.4,0.7,a,1,15,0.2,1.0
+396,396,616222,Vitor Reis,Vitor de Oliveira Nunes dos Reis,20,2,4.5,0.0,a,1,1,0.0,1.0
+397,397,437730,Semenyo,Antoine Semenyo,20,3,8.4,15.4,d,33,450,8.7,6.6
+398,398,209244,Foden,Phil Foden,20,3,6.9,1.8,s,9,217,-0.3,2.2
+399,399,466052,Cherki,Rayan Cherki,20,3,7.8,28.4,a,34,302,4.0,6.8
+400,400,248875,Doku,Jérémy Doku,20,3,7.4,0.7,a,1,15,0.3,1.0
 401,401,438234,Marmoush,Omar Marmoush,31,4,7.0,2.1,a,8,339,2.0,2.0
 402,402,220566,Rodrigo,Rodrigo 'Rodri' Hernandez Cascante,20,3,6.5,0.0,u,0,0,0.0,0.0
 403,403,510281,Sávio,Sávio Moreira de Oliveira,31,3,6.5,0.7,a,8,240,2.0,2.7
 404,404,433036,Reijnders,Tijjani Reijnders,20,3,6.0,0.0,u,0,0,0.0,0.0
 405,405,465694,N.Gonzalez,Nico González Iglesias,23,3,5.5,0.2,a,5,164,1.2,1.7
-406,406,91651,Kovačić,Mateo Kovačić,20,3,5.4,0.1,a,2,42,0.2,1.0
+406,406,91651,Kovačić,Mateo Kovačić,20,3,5.4,0.1,a,2,42,0.0,1.0
 407,407,575204,Echeverri,Claudio Echeverri,20,3,4.9,0.0,u,0,0,0.0,0.0
 408,408,155405,Phillips,Kalvin Phillips,20,3,5.0,0.0,u,0,0,0.0,0.0
 409,409,590039,Mukasa,Divine Mukasa,20,3,4.5,0.1,u,0,0,0.0,0.0
 410,410,649208,Monga,Jeremy Monga,20,3,4.9,0.0,u,0,0,0.0,0.0
-411,411,223094,Haaland,Erling Haaland,20,4,15.6,73.8,a,39,450,9.2,7.8
+411,411,223094,Haaland,Erling Haaland,20,4,15.6,73.8,a,39,450,8.0,7.8
 412,412,465247,Lammens,Senne Lammens,21,1,4.9,9.9,a,11,450,2.5,2.2
 413,413,451302,Bayindir,Altay Bayındır,21,1,4.5,0.0,u,0,0,0.0,0.0
 414,414,21205,Heaton,Tom Heaton,21,1,4.0,0.1,i,0,0,0.0,0.0
@@ -479,7 +479,7 @@
 478,478,470315,Netz,Luca Netz,25,2,4.4,0.0,a,3,27,0.5,1.0
 479,479,538638,Bindon,Tyler Bindon,25,2,4.0,0.1,u,0,0,0.0,0.0
 480,480,222531,Gibbs-White,Morgan Gibbs-White,25,3,8.0,15.7,a,28,450,6.5,5.6
-481,481,215379,Anderson,Elliot Anderson,20,3,6.3,4.0,a,15,413,3.2,3.0
+481,481,215379,Anderson,Elliot Anderson,20,3,6.3,4.0,a,15,413,3.3,3.0
 482,482,209046,Hudson-Odoi,Callum Hudson-Odoi,25,3,5.8,0.1,a,1,1,0.2,1.0
 483,483,456512,Ndoye,Dan Ndoye,25,3,5.5,0.7,a,15,316,3.0,3.0
 484,484,503301,Hutchinson,Omari Hutchinson,25,3,5.4,0.1,u,0,0,0.0,0.0
@@ -575,7 +575,7 @@
 574,574,552946,Hjertø-Dahl,Jens Hjertø-Dahl,14,3,4.9,0.1,a,1,8,0.2,1.0
 575,575,661888,Yirenkyi,Caleb Yirenkyi,9,3,4.8,0.1,a,9,265,2.0,1.8
 576,576,608227,Stroud,Elliot Stroud,14,3,5.0,0.1,a,7,249,1.0,1.8
-577,577,223723,Tomiyasu,Takehiro Tomiyasu,10,2,4.4,0.3,d,3,189,0.5,0.8
+577,577,223723,Tomiyasu,Takehiro Tomiyasu,10,2,4.4,0.3,d,3,189,0.3,0.8
 578,578,465920,Mudryk,Mykhailo Mudryk,31,3,5.3,0.0,i,1,16,0.2,1.0
 579,579,445087,Araujo,Ronald Araujo,18,2,5.4,3.0,a,22,284,5.2,4.4
 580,580,463210,Charles,Shea Charles,12,3,5.0,0.1,a,13,303,3.0,2.6
@@ -586,14 +586,14 @@
 585,585,597462,Herrington,Lucas Herrington,14,2,4.0,0.6,a,5,197,1.0,1.0
 586,586,606930,Mendy,Nobel Mendy,14,2,4.1,6.3,a,25,249,2.5,6.2
 587,587,106921,Rulli,Gerónimo Rulli,20,1,5.0,0.0,a,0,0,0.0,0.0
-588,588,570794,Khalaili,Anan Khalaili,10,2,5.0,0.3,a,19,379,4.5,3.8
+588,588,570794,Khalaili,Anan Khalaili,10,2,5.0,0.3,a,19,379,5.3,3.8
 589,589,469266,Gourna-Douath,Lucas Gourna-Douath,14,3,5.0,0.0,a,4,138,1.0,1.3
 590,590,428971,Benda,Steven Benda,25,1,4.5,0.1,a,0,0,0.0,0.0
 591,591,474120,Enciso,Julio Enciso,15,3,5.5,0.8,a,15,413,2.5,3.0
 592,592,572584,Ouattara,Abdoul Ouattara,15,2,4.0,0.9,a,6,131,1.2,1.2
 593,593,463726,Dedić,Amar Dedic,23,2,4.5,1.8,i,13,327,3.0,3.2
 594,594,538007,David,Promise David,5,4,5.9,0.2,a,1,23,0.2,0.5
-595,595,559152,Gozo,Zavier Gozo,10,3,4.9,0.0,a,2,28,0.5,1.0
+595,595,559152,Gozo,Zavier Gozo,10,3,4.9,0.0,a,2,28,0.3,1.0
 596,596,487992,Ruggeri,Matteo Ruggeri,3,2,4.5,0.1,a,5,113,1.0,1.7
 597,597,433969,Suzuki,Zion Suzuki,3,1,5.0,1.9,a,16,360,4.0,4.0
 598,598,173774,Elvedi,Nico Elvedi,16,2,4.5,0.1,a,13,326,3.2,3.2
@@ -614,13 +614,13 @@
 613,613,696104,Ahoka,Jules Ahoka,29,3,4.5,0.2,a,0,0,0.0,0.0
 614,614,512123,Hadjam,Jaouen Hadjam,5,2,4.5,0.0,a,0,0,0.0,0.0
 615,615,230650,Di Gregorio,Michele Di Gregorio,1,1,4.5,0.0,a,0,0,0.0,0.0
-616,616,637238,Bouaddi,Ayyoub Bouaddi,20,3,5.5,0.2,a,2,22,0.5,1.0
+616,616,637238,Bouaddi,Ayyoub Bouaddi,20,3,5.5,0.2,a,2,22,0.3,1.0
 617,617,490884,Cho,Mohamed-Ali Cho,14,3,5.0,0.0,a,9,72,2.2,2.2
 618,618,119090,Goretzka,Leon Goretzka,3,3,5.9,0.0,i,0,0,0.0,0.0
 619,619,218543,Palacios,Exequiel Palacios,15,3,5.0,0.1,a,11,275,2.8,2.8
 620,620,613804,Diouf,El Hadji Malick Diouf,4,2,4.5,0.1,a,2,39,0.5,1.0
-621,621,616288,McAidoo,Ryan McAidoo,20,3,4.5,0.1,a,2,11,0.5,1.0
-622,622,554054,Braithwaite,Kaden Braithwaite,20,2,4.0,0.2,a,1,1,0.2,1.0
+621,621,616288,McAidoo,Ryan McAidoo,20,3,4.5,0.1,a,2,11,0.3,1.0
+622,622,554054,Braithwaite,Kaden Braithwaite,20,2,4.0,0.2,a,1,1,0.0,1.0
 623,623,79602,Bentley,Dan Bentley,9,1,4.0,0.6,a,0,0,0.0,0.0
 624,624,519324,Cozier-Duberry,Amario Cozier-Duberry,5,3,5.0,0.0,u,0,0,0.0,0.0
 625,625,97846,Cairns,Alex Cairns,16,1,4.0,0.2,a,0,0,0.0,0.0
