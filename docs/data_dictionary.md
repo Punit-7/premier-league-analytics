@@ -27,7 +27,7 @@ Every table in `data/processed/epl.duckdb` that the notebooks, app and Power BI 
 | `start_year` | INTEGER | 0 | 2015 to 2026 | Calendar year the season starts. |
 | `end_year` | INTEGER | 0 | 2016 to 2027 | Calendar year the season ends. |
 | `crowd_status` | VARCHAR | 0 | `behind_closed_doors`, `normal`, `partial_behind_closed_doors` | `normal`, or one of the two COVID seasons played partly or fully without crowds. |
-| `status` | VARCHAR | 0 | `completed`, `in_progress` | `completed` or `in_progress`. The train/predict boundary for P2. |
+| `status` | VARCHAR | 0 | `completed`, `in_progress` | `completed` or `in_progress`. |
 
 ## `dim_date`
 
