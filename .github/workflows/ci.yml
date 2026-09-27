@@ -6,6 +6,8 @@ jobs:
     defaults:
       run:
         working-directory: analytics
+    env:
+      PYTHONPATH: /home/runner/work/premier-league-analytics/premier-league-analytics/analytics
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
