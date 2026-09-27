@@ -7,7 +7,6 @@ pipeline_run table at the end, so the history ends up queryable anyway.
 """
 import json
 from datetime import datetime, timezone
-from pathlib import Path
 
 from src.logging_setup import LOG_DIR, RUN_ID
 

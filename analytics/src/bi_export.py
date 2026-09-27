@@ -4,7 +4,6 @@ Reads from the dbt-built DuckDB marts, not from Python — the marts are the
 one place the star schema is defined since stage 11.
 """
 import duckdb
-import pandas as pd
 
 from src.config import CONFIG
 from src.logging_setup import get_logger, stage
