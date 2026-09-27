@@ -1,5 +1,12 @@
 .PHONY: all ingest clean-data build export quality test lint app refresh
 
+# One run id for every stage of one make invocation, so runs.jsonl and the
+# per-run log group them together. CI sets its own.
+ifndef PL_RUN_ID
+PL_RUN_ID := $(shell python -c "import datetime as d; print(d.datetime.now(d.timezone.utc).strftime('%Y%m%dT%H%M%SZ'))")
+endif
+export PL_RUN_ID
+
 all: ingest clean-data quality build export test
 
 ingest:
@@ -12,7 +19,7 @@ clean-data:
 
 build:
 	python -m src.load
-	dbt build                   # models + tests, in dependency order
+	dbt build                   
 
 export:
 	python -m src.bi_export
@@ -33,5 +40,5 @@ refresh:
 	python -m src.clean_players
 	python -m src.quality
 	python -m src.load
-	dbt build                   # is the model correct?
+	dbt build                   
 	python -m src.bi_export

@@ -8,6 +8,14 @@ models:
       - name: team_name
         tests: [unique, not_null]
 
+  - name: dim_date
+    description: Calendar spine, one row per day. Contiguous by construction.
+    columns:
+      - name: date_id
+        tests: [unique, not_null]
+      - name: full_date
+        tests: [unique, not_null]
+
   - name: dim_season
     columns:
       - name: season_id

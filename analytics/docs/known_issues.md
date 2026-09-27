@@ -51,4 +51,4 @@ dangerous one — it reaches `dim_player`, and a not-yet-written reconciliation
 check that drops nulls before comparing would pass green with a club
 silently missing. Unified all four id-based lookups on
 `team_names.by_fpl_id()`, which always raises with the id and a pointer to
-re-run ingestion. Deviates from the guide's own code on purpose.
+re-run ingestion.

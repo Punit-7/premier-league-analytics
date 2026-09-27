@@ -20,8 +20,13 @@ def main() -> None:
     with stage(log, "bi_export"):
         out = CONFIG["paths"]["bi"]
         with duckdb.connect(str(CONFIG["paths"]["database"]), read_only=True) as conn:
+            # Timestamps otherwise export in this machine's zone, so a laptop
+            # and the CI runner would write different CSVs from the same data.
+            conn.execute("SET TimeZone = 'UTC'")
             for name in TABLES:
                 df = conn.execute(f"SELECT * FROM {name}").df()
+                for col in df.select_dtypes(include=["bool", "boolean"]).columns:
+                    df[col] = df[col].astype("Int64")
                 df.to_csv(out / f"{name}.csv", index=False, encoding="utf-8-sig")
                 log.info("exported %-22s %7d rows", name, len(df))
         log.info("exported %d tables to %s", len(TABLES), out)

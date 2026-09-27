@@ -1,6 +1,6 @@
 {{ config(materialized='table') }}
 
--- Grain: one row per player. The mart the Power BI report and the app both read.
+-- Grain: one row per player. Value metrics on the player's latest price.
 
 with facts as (
     select * from {{ ref('fact_player_fixture') }}
@@ -14,8 +14,9 @@ aggregated as (
         sum(case when minutes = 0 then 1 else 0 end)   as unused,
         sum(minutes)                                   as minutes,
         sum(total_points)                              as total_points,
-        max(price_m)                                   as latest_price_m,
-        max(selected)                                  as owners
+        -- Latest, not peak: max() would keep a price that has since dropped.
+        arg_max(price_m, gameweek_id)                  as latest_price_m,
+        arg_max(selected, gameweek_id)                 as owners
     from facts
     group by player_id
 )

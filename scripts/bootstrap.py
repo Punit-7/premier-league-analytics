@@ -23,7 +23,8 @@ DIRS = [
     "analytics/data/processed","analytics/data/powerbi"
     ]
 
-# Directories that must survive a clone even when empty.
+# Directories that must survive a clone even when empty. raw/ and interim/
+# are gitignored, so their markers stay local; config.py recreates both anyway.
 
 KEEP = [
     "analytics/data/raw","analytics/data/interim",
@@ -117,10 +118,17 @@ feeding four independent surfaces.
 Scaffolded with `python scripts/bootstrap.py`.
 """
 
-def stub_body(docstring: str, has_main: bool) -> str:
+# No logger import in these: logging_setup would import itself, and the app
+# runs under Streamlit, where the src package is not on the path.
+NO_LOGGER = {"analytics/src/logging_setup.py", "analytics/app/style.py",
+             "analytics/app/dashboard.py"}
+
+
+def stub_body(docstring: str, has_main: bool, logger: bool = True) -> str:
     """Return a stub body for a module with the given docstring and main() entry point."""
     body = f'"""{docstring}\n\nTODO: implement. See the build guide for this stage.\n"""\n'
-    body += "from src.logging_setup import get_logger\n\nlog=get_logger(__name__)\n"
+    if logger:
+        body += "from src.logging_setup import get_logger\n\nlog=get_logger(__name__)\n"
     
     if has_main:
         body += (
@@ -189,7 +197,7 @@ def main() -> int:
     print("\nModule stubs (never overwritten)")
     for rel, (doc, has_main) in STUBS.items():
         record(rel, write(ROOT / rel, 
-                          stub_body(doc, has_main), dry=args.dry_run, force=args.force, protected=True))
+                          stub_body(doc, has_main, rel not in NO_LOGGER), dry=args.dry_run, force=args.force, protected=True))
     
     print(f"\n{tally['created']} created, {tally['skipped']} skipped, {tally['overwritten']} overwritten.")
     

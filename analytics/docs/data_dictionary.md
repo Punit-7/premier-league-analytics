@@ -31,18 +31,20 @@ Every table in `data/processed/epl.duckdb` that the notebooks, app and Power BI 
 
 ## `dim_date`
 
-**Grain:** One row per date on which a match or FPL fixture was played.  
-**Built by:** dbt `marts/dim_date` · 1,269 rows
+**Grain:** One row per calendar day, from the first match to a week past the last FPL deadline. Contiguous, so Power BI can mark it as a date table.  
+**Built by:** dbt `marts/dim_date` · 4,321 rows
 
 | Column | Type | Nulls | Observed range | Meaning |
 |---|---|---|---|---|
-| `date_id` | INTEGER | 0 | 20150808 to 20260920 | Surrogate key as `YYYYMMDD`. |
-| `full_date` | DATE | 0 | 2015-08-08 to 2026-09-20 | The date. |
-| `year` | BIGINT | 0 | 2015 to 2026 | Calendar year. |
+| `date_id` | INTEGER | 0 | 20150808 to 20270606 | Surrogate key as `YYYYMMDD`. |
+| `full_date` | DATE | 0 | 2015-08-08 to 2027-06-06 | The date. |
+| `year` | BIGINT | 0 | 2015 to 2027 | Calendar year. |
 | `month` | BIGINT | 0 | 1 to 12 | Month number. |
 | `month_name` | VARCHAR | 0 | 12 distinct | Month name. |
-| `day_of_week` | VARCHAR | 0 | `Friday`, `Monday`, `Saturday`, `Sunday`, `Thursday`, `Tuesday`, `Wednesday` | Weekday name. |
-| `is_weekend` | BOOLEAN | 0 | true / false | True on Saturday and Sunday. |
+| `day_of_month` | BIGINT | 0 | 1 to 31 | Day of the month. |
+| `day_of_week` | VARCHAR | 0 | 7 distinct | Weekday name. |
+| `iso_week` | BIGINT | 0 | 1 to 53 | ISO week number. |
+| `is_weekend` | INTEGER | 0 | 0 / 1 | 1 on Saturday and Sunday. |
 
 ## `dim_gameweek`
 

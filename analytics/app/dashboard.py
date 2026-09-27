@@ -154,16 +154,18 @@ with right:
     )
 
 st.subheader("Player detail")
-pick = st.selectbox("Player", view.sort_values("points", ascending=False)["web_name"])
+# Keyed on player_id: web_name is not unique (two Davies, two Johnsons...).
+ranked = view.sort_values("points", ascending=False)
+labels = dict(zip(ranked["player_id"], ranked["web_name"] + " · " + ranked["team_name"]))
+pick = st.selectbox("Player", list(labels), format_func=labels.get)
 detail = q("""
     SELECT f.gameweek_id, f.total_points, f.minutes, f.bonus, f.price_m,
            o.team_name AS opponent, f.was_home
     FROM fact_player_fixture f
-    JOIN dim_player p ON p.player_id = f.player_id
     LEFT JOIN dim_team o ON o.team_id = f.opponent_team_id
-    WHERE p.web_name = ?
+    WHERE f.player_id = ?
     ORDER BY f.gameweek_id
-""", (pick,)).sort_values("gameweek_id")
+""", (int(pick),)).sort_values("gameweek_id")
 detail["fixture"] = (
     detail["gameweek_id"].astype(str)
     + " " + detail["opponent"].fillna("?")

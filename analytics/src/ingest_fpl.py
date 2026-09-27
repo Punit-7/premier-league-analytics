@@ -46,18 +46,17 @@ def fetch_fixtures() -> list:
     log.info("fixtures: %d total, %d played", len(data), played)
     return data
 
+def signatures(elements: list) -> dict[str, str]:
+    """A player's points-and-minutes fingerprint. It moves when they play."""
+    return {str(e["id"]): f"{e['total_points']}:{e['minutes']}" for e in elements}
+
+
 def players_needing_refresh(elements: list) -> list[int]:
     """Only re-fetch a player whose season points or minutes moved."""
     previous = load("player_totals") or {}
-    stale, totals = [], {}
-    for e in elements:
-        key = str(e["id"])
-        signature = f"{e['total_points']}:{e['minutes']}"
-        totals[key] = signature
-        if previous.get(key) != signature or not (RAW / f"player_{key}.json").exists():
-            stale.append(e["id"])
-    save("player_totals", totals)
-    return stale
+    return [e["id"] for e in elements
+            if previous.get(str(e["id"])) != signatures([e])[str(e["id"])]
+            or not (RAW / f"player_{e['id']}.json").exists()]
 
 
 def fetch_player_histories(elements: list, refresh_only: bool) -> None:
@@ -70,6 +69,9 @@ def fetch_player_histories(elements: list, refresh_only: bool) -> None:
         time.sleep(DELAY)
         if n % 100 == 0:
             log.debug("swept %d/%d", n, len(targets))
+    # Written only after every fetch succeeded: a sweep that dies halfway
+    # must not mark its unfetched players as fresh.
+    save("player_totals", signatures(elements))
 
 
 def main() -> None:
