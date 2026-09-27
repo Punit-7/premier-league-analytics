@@ -1,15 +1,79 @@
-- name: Fetch, validate, rebuild, export
-env:
-    PL_RUN_ID: ${{ github.run_id }}-${{ github.run_attempt }}
-    LOG_LEVEL: INFO
-run: |
-    python -m src.ingest_matches
-    python -m src.ingest_fpl
-    ...
+name: refresh
 
-- name: Upload logs on failure
-  if: failure()
-  uses: actions.upload-artificat@v4
-  with:
-    name: pipeline-logs-${{ github.run_id }}
-    path: analytics/logs/
+on:
+  schedule:
+    - cron: "0 */6 * * *"     # Every 6 hours during the season
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: analytics
+    outputs:
+      should_refresh: ${{ steps.detect.outputs.should_refresh }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Detect new finished gameweek
+        id: detect
+        run: |
+          python -c "
+          from src.refresh_check import has_new_finished_gameweek
+          should = has_new_finished_gameweek()
+          print(f'should_refresh={str(should).lower()}')
+          exit(0)
+          " >> $GITHUB_OUTPUT
+
+  refresh:
+    needs: check
+    if: needs.check.outputs.should_refresh == 'true'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: analytics
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Restore FPL cache
+        uses: actions/cache@v4
+        with:
+          path: analytics/data/raw
+          key: raw-${{ github.run_id }}
+          restore-keys: raw-
+
+      - name: Fetch, validate, rebuild, export
+        run: |
+          python -m src.ingest_matches
+          python -m src.ingest_fpl --refresh
+          python -m src.clean_matches
+          python -m src.clean_players
+          python -m src.quality
+          python -m src.load
+          python -m src.bi_export
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/processed/epl.db data/powerbi/
+          git diff --staged --quiet || git commit -m "Refresh $(date -u +%F)"
+          git push
