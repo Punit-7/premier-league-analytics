@@ -1,72 +1,80 @@
 """Event detection: has a new gameweek finished since the last refresh?
 
-The workflow runs every 6 hours. This function checks whether there is a
-newly finished gameweek in the database. Only if there is does the expensive
-ingest + validate + load step run.
+The workflow runs every 6 hours. The check asks the FPL API for the latest
+finished gameweek and compares it with the one recorded in
+.github/refresh_state.json. Only if it is newer does the expensive
+ingest + validate + load step run; that job then records the gameweek.
 
-Returns False if:
-  - No gameweeks have finished yet (first run, offseason)
-  - The last finished gameweek was already processed last run
+The check reads the API, not epl.duckdb: the database only changes when a
+refresh runs, so it can never reveal a gameweek that finished since.
+
+Prints nothing but key=value lines on stdout, because the workflow appends
+stdout to $GITHUB_OUTPUT. Diagnostics go to stderr.
 """
+import argparse
 import json
+import sys
 from pathlib import Path
+
+import requests
 
 from src.config import CONFIG
 
-DB = CONFIG["paths"]["database"]
+BASE = CONFIG["fpl_source"]["base_url"]
 STATE_FILE = Path(__file__).resolve().parents[1] / ".github" / "refresh_state.json"
+HEADERS = {"User-Agent": "pl-analytics-portfolio/1.0 (+https://github.com/Punit-7/premier-league-analytics)"}
 
 
-def has_new_finished_gameweek() -> bool:
-    """True if there is a finished gameweek we have not yet processed."""
-    try:
-        import sqlite3
-        import duckdb
-        
-        # Read last processed gameweek from state file
-        if STATE_FILE.exists():
-            state = json.loads(STATE_FILE.read_text())
-            last_processed = state.get("last_finished_gw")
-        else:
-            last_processed = None
-        
-        # Check database for latest finished gameweek
-        if DB.suffix == ".duckdb":
-            with duckdb.connect(str(DB), read_only=True) as conn:
-                result = conn.execute(
-                    "SELECT max(gameweek_id) FROM dim_gameweek WHERE finished"
-                ).fetchall()
-                latest_finished = result[0][0] if result and result[0][0] else None
-        else:
-            with sqlite3.connect(f"file:{DB}?mode=ro", uri=True) as conn:
-                result = conn.execute(
-                    "SELECT max(gameweek_id) FROM dim_gameweek WHERE finished"
-                ).fetchone()
-                latest_finished = result[0] if result and result[0] else None
-        
-        # No finished gameweeks yet
-        if latest_finished is None:
-            return False
-        
-        # New gameweek finished since last run
-        if last_processed is None or latest_finished > last_processed:
-            return True
-        
+def latest_finished_gameweek() -> int | None:
+    """Highest gameweek FPL has finished and finalised (bonus points applied)."""
+    r = requests.get(f"{BASE}/bootstrap-static/", headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    done = [e["id"] for e in r.json()["events"] if e["finished"] and e["data_checked"]]
+    return max(done, default=None)
+
+
+def last_processed_gameweek() -> int | None:
+    if not STATE_FILE.exists():
+        return None
+    return json.loads(STATE_FILE.read_text()).get("last_finished_gw")
+
+
+def has_new_finished_gameweek(latest: int | None) -> bool:
+    """True if `latest` is a finished gameweek we have not yet processed."""
+    if latest is None:          # offseason, or before gameweek 1 ends
         return False
-    
-    except Exception as e:
-        print(f"Error checking gameweek state: {e}")
-        return False  # Fail safely — skip refresh on error
+    last = last_processed_gameweek()
+    return last is None or latest > last
 
 
 def record_refresh(gw: int) -> None:
     """Record that we have processed this gameweek."""
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
-    STATE_FILE.write_text(json.dumps({"last_finished_gw": gw}))
+    STATE_FILE.write_text(json.dumps({"last_finished_gw": gw}) + "\n")
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--record", type=int, metavar="GW",
+                    help="record GW as processed instead of checking")
+    args = ap.parse_args()
+
+    if args.record is not None:
+        record_refresh(args.record)
+        print(f"recorded gameweek {args.record}", file=sys.stderr)
+        return 0
+
+    try:
+        latest = latest_finished_gameweek()
+    except Exception as e:      # fail safe: skip this refresh, try again in 6 hours
+        print(f"Error checking gameweek state: {e}", file=sys.stderr)
+        latest = None
+    should = has_new_finished_gameweek(latest)
+    print(f"latest finished={latest}, last processed={last_processed_gameweek()}", file=sys.stderr)
+    print(f"should_refresh={str(should).lower()}")
+    print(f"gameweek={latest or ''}")
+    return 0
 
 
 if __name__ == "__main__":
-    import sys
-    should_refresh = has_new_finished_gameweek()
-    print(f"should_refresh={'true' if should_refresh else 'false'}")
-    sys.exit(0)
+    sys.exit(main())

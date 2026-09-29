@@ -192,8 +192,8 @@ Two GitHub Actions workflows live in `.github/workflows/`:
 | `refresh.yml` | Every 6 hours (`0 */6 * * *`), or manually | See below |
 
 `refresh.yml` runs in two jobs:
-1. **Check.** `src/refresh_check.py` looks for a finished gameweek that has not been processed yet.
-2. **Refresh.** This job runs only if the check finds one. It ingests, cleans, runs the quality contracts, loads and exports, then commits the updated `epl.duckdb` and `data/powerbi/` CSVs back to the repository.
+1. **Check.** `src/refresh_check.py` asks the FPL API for the latest finished gameweek and compares it with the last processed one in `.github/refresh_state.json`.
+2. **Refresh.** This job runs only if the check finds a new one, or when the workflow is started manually. It ingests, cleans, runs the quality contracts, loads and exports, records the gameweek, then commits the updated `epl.duckdb`, `data/powerbi/` CSVs and state file back to the repository.
 
 The FPL raw cache is kept between runs with `actions/cache`.
 
@@ -211,8 +211,6 @@ The FPL raw cache is kept between runs with `actions/cache`.
 
 **Automation**
 - **The scheduled refresh does not run `dbt build`.** It loads the `raw_*` tables and exports, while `make refresh` rebuilds the dbt models locally.
-- **The "already processed" gameweek is never recorded.** `refresh_check.record_refresh()` is never called and its state file is not committed, so once any gameweek has finished, every scheduled check triggers a refresh.
-
 ## Project layout
 
 ```
