@@ -2,8 +2,6 @@
 
 A live Premier League warehouse that answers one question every gameweek: **which Fantasy Premier League players are worth their price this week?**
 
-Live app: TODO
-
 ## The question it answers
 
 FPL managers have a £100m budget and 15 squad places. Price is the obvious guide, but it is a weak one: so far this season, price explains only about 15% of the variation in points (see [Key findings](#key-findings)). This project measures value directly. It ranks players by points per million, current form, fixture difficulty and ownership, alongside the live league table and eleven seasons of match history for context.
