@@ -58,6 +58,7 @@ jobs:
           python -m src.clean_players
           python -m src.quality
           python -m src.load
+          dbt build
           python -m src.bi_export
 
       - name: Record processed gameweek

@@ -121,21 +121,16 @@ Run it with `make app`. The theme is in `.streamlit/config.toml`, and the app's 
 
 This is a two-page report (a main page and a player detail page) built on the star schema. It uses the theme in `powerbi/pl-theme.json`, and a PDF export is in `powerbi/pl-analytics.pdf`.
 
-The report reads the CSV export in `data/powerbi/`. The path is stored as a parameter, so point it at your clone:
+The report reads the CSV export in `data/powerbi/` straight from GitHub. The `DataPath` parameter is `https://raw.githubusercontent.com/Punit-7/premier-league-analytics/main/data/powerbi/`, so it works on any machine with no setup. It always shows the latest data the refresh job has committed.
 
-1. Open `powerbi/pl-analytics.pbix` in Power BI Desktop.
-2. Go to Home → Transform data → Manage Parameters.
-3. Set `DataPath` to your clone's `data/powerbi` folder.
-4. Choose Close & Apply.
-
-The CSVs are committed, so you don't need to rebuild anything first.
+The published copy in the Power BI Service has a scheduled refresh, so it updates on its own after each gameweek. To point a local copy at your own CSVs instead, set `DataPath` under Home → Transform data → Manage Parameters.
 
 ### 3. Excel briefing workbook — `excel/pl_Excel_report.xlsx`
 
 This is a refreshable briefing with six sheets: **README, Briefing, Fixture Ticker, Watchlist, Data, Refresh**. It covers player value, fixture difficulty and a personal watchlist.
 - The only hand-typed input is the player names in column A of the Watchlist sheet.
 - All shaping happens in Power Query, not in cell formulas.
-- It reads the same `data/powerbi/` CSVs through a `DataPath` parameter. To change it, go to Data → Get Data → Launch Power Query Editor → Manage Parameters.
+- It reads the same `data/powerbi/` CSVs from GitHub through a `DataPath` parameter, and refreshes every time it is opened. To change it, go to Data → Get Data → Launch Power Query Editor → Manage Parameters.
 - It needs Microsoft 365, build 2608 or later. The Watchlist uses `LET`, `FILTER`, `HSTACK`, `BYROW` and `MAP`, so older Excel shows `#NAME?`.
 
 ## Key findings
@@ -191,7 +186,7 @@ Two GitHub Actions workflows live in `.github/workflows/`:
 
 `refresh.yml` runs in two jobs:
 1. **Check.** `src/refresh_check.py` asks the FPL API for the latest finished gameweek and compares it with the last processed one in `.github/refresh_state.json`.
-2. **Refresh.** This job runs only if the check finds a new one, or when the workflow is started manually. It ingests, cleans, runs the quality contracts, loads and exports, records the gameweek, then commits the updated `epl.duckdb`, `data/powerbi/` CSVs and state file back to the repository.
+2. **Refresh.** This job runs only if the check finds a new one, or when the workflow is started manually. It ingests, cleans, runs the quality contracts, loads, runs `dbt build`, exports, records the gameweek, then commits the updated `epl.duckdb`, `data/powerbi/` CSVs and state file back to the repository.
 
 The FPL raw cache is kept between runs with `actions/cache`.
 
@@ -205,10 +200,8 @@ The FPL raw cache is kept between runs with `actions/cache`.
 - **Coventry City and Hull City have no Premier League history** in the baseline, so prior-season comparisons are undefined for them.
 
 **Front ends**
-- **The Power BI and Excel `DataPath` parameters are absolute paths** and must be set once per machine.
+- **The Power BI and Excel reports need internet access.** They read the CSVs from GitHub, not from your clone.
 
-**Automation**
-- **The scheduled refresh does not run `dbt build`.** It loads the `raw_*` tables and exports, while `make refresh` rebuilds the dbt models locally.
 ## Project layout
 
 ```
